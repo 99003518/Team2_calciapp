@@ -10,6 +10,44 @@ Y axis – Cost( percent)
 
 ![agecost](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/1.Requirements/ageandcost.png)
 
+ FEATURES
+1. ABACUS
+
+SR NO. | PRONS | CONS
+------------ | ------------- | ------------- 
+1 | Has a simple working principle. | Complex mathematical operations cannot be performed.
+2 | This made Addition and subtraction less error prone. | Very Time consuming.
+
+2.PASCAL CALCULATOR
+
+SR NO. | PRONS | CONS
+------------ | ------------- | ------------- 
+1 | First Computer which performed calculations through a clockwork-type of mechanism. | This calculator was very large and bulky.
+2 | This device performs all four arithmetic operations without relying on human intelligence. | It was difficult to perform multiplication and division operation.
+
+3.CURTA CALCULATOR
+
+SR NO. | PRONS | CONS
+------------ | ------------- | ------------- 
+1 | Curta calculator had a very compact model. | It was a mechanical calculator.
+2 | It was capable of performing all the four arithmetic operations easily. | It was expensive.
+
+4.SOLID STATE ELECTRONIC CALCULATOR
+ 
+SR NO. | PRONS | CONS
+------------ | ------------- | ------------- 
+1 | This calculator was less costly. | It was not capable of plotting graphs.
+2 | It had a credit card size. | This calculator had a smaller display.
+
+
+
+5.MODERN SCIENTIFIC CALCULATOR
+SR NO. | PRONS | CONS
+------------ | ------------- | ------------- 
+1 | It can compute complex mathematical functions and equations. | It cannot solve integral calculus.
+2 | The computations can be done easily and in just few seconds. | It cannot plot graphs.
+
+
 ////////////////// LOW LEVEL REQUIREMENTS
 
 
