@@ -117,15 +117,6 @@ HL_02	|Functions and operations mentioned below must be included:<br>01. Additio
  
 
 
-
-
-
-
-
-
-////////////////// LOW LEVEL REQUIREMENTS
-
-
 ## LOW LEVEL REQUIREMENTS 
  
 ###### LL_06_TP : FACTORIAL
