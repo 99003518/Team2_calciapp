@@ -1,6 +1,12 @@
 #include "npr.h"
 #include<stdio.h>
-int add(int operand1, int operand2)
+int fact(int num)
 {
-    return operand1 + operand2;
+    if (num <= 1) 
+        return 1; 
+    return num*fact(num-1); 
+}
+int npr(int n, int r)
+{
+    return fact(n)/(fact(n-r));
 }
