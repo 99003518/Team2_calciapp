@@ -5,6 +5,6 @@
 #include <stdlib.h>
 #include <stdio_ext.h>
 
-int ncr(int operand1, int operand2);
+int ncr(int n, int r);
 
 #endif 
