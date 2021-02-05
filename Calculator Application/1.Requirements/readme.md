@@ -77,7 +77,7 @@ Y axis – Cost( percent)
 
 
 
-## REQUIREMENTS:
+## DETAILED REQUIREMENTS:
 ### HIGH LEVEL REQUIREMENTS:
 |ID |	DESCRIPTION |
 |-----|-----|
