@@ -7,18 +7,10 @@ Curt Herzstark invented the first handheld, mechanical calculator in 1945 from a
 In the mid-2000s many of the modern smart phones were introduced and with them came a new way of calculation. Modern scientific calculators are used nowadays for all the purpose. Calculators are now in every phone, every tablet, and in every app store from 1$ to 600$.
 
 
-
-
-
-
-
-
-
-
-
 X axis – Year
 Y axis – Cost( percent)
 
+![](/ageandcost.png)
 
 
 
