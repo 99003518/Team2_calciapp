@@ -25,6 +25,7 @@ $(BUILD):
 			mkdir build
 
 INC = -Iinc\
+ -Iunity\
 
 PROJECT_NAME = group2.out
 
@@ -34,3 +35,6 @@ $(PROJECT_NAME): $(SRC)
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
 	./$(PROJECT_NAME)
+
+
+
