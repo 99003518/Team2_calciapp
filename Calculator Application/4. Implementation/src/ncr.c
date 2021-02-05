@@ -1,4 +1,5 @@
-#include <ncr.h>
+#include "ncr.h"
+#include<stdio.h>
 int fact(int num)
 {
     if (num <= 1) 
