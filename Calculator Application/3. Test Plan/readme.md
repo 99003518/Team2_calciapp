@@ -20,14 +20,14 @@ Expected Input   Expected Output
   
   
   
-  
+#### TEST PLAN(EXPONENTIAL)  
   LL_05 TEST PLAN 
 
-| TEST\_ID | DESCRIPTION | EXPECTED INPUT | EXPECTED OUTPUT |
-| --- | --- | --- | --- |
-| T\_01\_LL\_05\_HL\_02 | To check the output when the exponent is positive | Numbers x and y greater than one | Output is greater than one |
-| T\_02\_LL\_05\_HL\_02 | To check the output when the exponent is negative | Number x is greater than zero and y is less than zero | Output is less than one |
-| T\_03\_LL\_05\_HL\_02 | To check the output when the exponent is zero | Number x is greater than zero and y is equal to zero | Output is equal to one |
+| TEST\_ID | DESCRIPTION | EXPECTED INPUT | EXPECTED OUTPUT | TYPE OF TEST |
+| --- | --- | --- | --- | --- |
+| T\_01\_LL\_05\_HL\_02 | To check the output when the exponent is positive | Numbers x and y greater than one | Output is greater than one |Requirement based test |
+| T\_02\_LL\_05\_HL\_02 | To check the output when the exponent is negative | Number x is greater than zero and y is less than zero | Output is less than one | Requirement based test |
+| T\_03\_LL\_05\_HL\_02 | To check the output when the exponent is zero | Number x is greater than zero and y is equal to zero | Output is equal to one | Requirement based test |
 
 
 **Test Plan for Modulo Division & Distance Conversion:**
