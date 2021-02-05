@@ -1,10 +1,12 @@
-#### behavioural addition
+#### behavioural_addition
 ![add_behav](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/LL_01%20behaviour.png)
 
-#### structural addition
+#### structural_addition
 ![add_strct](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/LL_01_structural.png)
 
-#### structural subtraction
+#### behavioral_subtraction
+
+#### structural_subtraction
 ![sub_struct](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/LL_02%20struct%20diagram.png)
 
 #### behavioural_factorial
