@@ -18,6 +18,7 @@ Functions and operations mentioned below must be included:
 09. Permutation and Combination 
 10. Trigonometric functions 
 11. Conversions 
+12. Bitwise (and,or)
 Hl_03
 Check for different operations
 HL_04
