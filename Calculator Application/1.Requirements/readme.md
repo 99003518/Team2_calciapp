@@ -1,4 +1,3 @@
-REQUIREMENTS
 BRIEF HISTORY OF A CALCULATOR
 
 People's best friend has always been, and will always be, calculator. This powerful yet diminutive device has undergone a few significant facelifts over the millennia but their basic functions would be familiar in concept to our ancestors.
