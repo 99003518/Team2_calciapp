@@ -1,7 +1,9 @@
-#include <addition_operations.h>
+#include <addition.h>
 
-int add(int operand1, int operand2)
+int add(int a, int b)
 {
-    return operand1 + operand2;
+    int sum;
+    sum = a+b;
+    printf("Result = %d ",sum);
+    return sum;
 }
-
