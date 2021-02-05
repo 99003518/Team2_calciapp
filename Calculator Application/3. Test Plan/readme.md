@@ -43,6 +43,12 @@ Test Plan for nPr and nCr operations As per formula we know the calculations for
 | Conversion from Hectares to Acres      | User Input   | 12      | 29.6526       |
 
 
+
+#### TEST PLAN(SUBTRACTION)
+
+![Testplan](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/3.%20Test%20Plan/Test%20plan%20for%20subtraction.png)
+
+
 #### TEST PLAN (MULTIPLICATION)
 
 | **Test Id** | **Description** | **Expected input** | **Expected Output** |
