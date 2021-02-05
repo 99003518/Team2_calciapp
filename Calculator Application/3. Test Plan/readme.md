@@ -17,4 +17,16 @@ Expected Input   Expected Output
   4C0          |      1
   6P6          |     720
   6C6          |      1
+  
+  
+  
+  
+  LL_05 TEST PLAN 
+
+| TEST\_ID | DESCRIPTION | EXPECTED INPUT | EXPECTED OUTPUT |
+| --- | --- | --- | --- |
+| T\_01\_LL\_05\_HL\_02 | To check the output when the exponent is positive | Numbers x and y greater than one | Output is greater than one |
+| T\_02\_LL\_05\_HL\_02 | To check the output when the exponent is negative | Number x is greater than zero and y is less than zero | Output is less than one |
+| T\_03\_LL\_05\_HL\_02 | To check the output when the exponent is zero | Number x is greater than zero and y is equal to zero | Output is equal to one |
+
 
