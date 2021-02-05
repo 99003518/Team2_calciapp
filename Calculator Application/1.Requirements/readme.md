@@ -48,15 +48,6 @@ SR NO. | PRONS | CONS
 1 | It can compute complex mathematical functions and equations. | It cannot solve integral calculus.
 2 | The computations can be done easily and in just few seconds. | It cannot plot graphs.
 
-### HIGH LEVEL REQUIREMENTS:
-|ID |	DESCRIPTION |
-|-----|-----|
-HL_01	|Check for valid inputs|
-HL_02	|Functions and operations mentioned below must be included:<br>01. Addition <br>02. Subtraction<br>03. Division <br>04. Multiplication <br>05. Exponential <br>06. Factorial <br>07. Modulo<br>08. Percentage<br>09. Permutation and Combination <br>10. Trigonometric functions <br>11. Conversions |
-|Hl_03	|Check for different operations|
-|HL_04	|Check for proper expression|
-|HL_05	|Symbols for perform the required mathematical operations must be included|
-
 
 1. PRODUCT DEFINATION
    (SOLID STATE CALCULATOR)
@@ -111,6 +102,18 @@ HL_02	|Functions and operations mentioned below must be included:<br>01. Additio
 	
 1(D). TARGET AUDIENCE:
 	Our target audience are students specifically engineering students, CA's, professionals and any other individual who would require to perform such operations at a single stop.
+
+
+### HIGH LEVEL REQUIREMENTS:
+|ID |	DESCRIPTION |
+|-----|-----|
+HL_01	|Check for valid inputs|
+HL_02	|Functions and operations mentioned below must be included:<br>01. Addition <br>02. Subtraction<br>03. Division <br>04. Multiplication <br>05. Exponential <br>06. Factorial <br>07. Modulo<br>08. Percentage<br>09. Permutation and Combination <br>10. Trigonometric functions <br>11. Conversions |
+|Hl_03	|Check for different operations|
+|HL_04	|Check for proper expression|
+|HL_05	|Symbols for perform the required mathematical operations must be included|
+
+
  
 
 
