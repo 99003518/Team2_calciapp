@@ -94,7 +94,7 @@ Y axis – Cost( percent)
 
 #### LOW LEVEL REQUIREMENTS 
  
- #######LL_06_TP : FACTORIAL
+###### LL_06_TP : FACTORIAL
 | ID | DESCRIPTION |
 | ------ | ------ |
 | ( i )| Check for valid input |
