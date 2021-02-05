@@ -11,6 +11,14 @@ src/mul.c\
 src/ncr.c\
 src/npr.c\
 src/percentage.c\
+src/bitoperations.c\
+src/division.c\
+src/modulo.c\
+src/sub.c\
+src/hectaretoacre.c\
+src/inchtocentimeter.c\
+src/kmtometer.c\
+
 
 
 $(BUILD):
