@@ -30,3 +30,12 @@ Expected Input   Expected Output
 | T\_03\_LL\_05\_HL\_02 | To check the output when the exponent is zero | Number x is greater than zero and y is equal to zero | Output is equal to one |
 
 
+**Test Plan for Modulo Division & Distance Conversion:**
+
+| Description                            | Precondition |  I/p    | Expected o/p  |
+|----------------------------------------|--------------|---------|---------------|
+| Modulo Division of two number’s        | User Input   | 9 and 4 | 1             |
+| Conversion from Kilometer’s to meter’s | User Input   | 12      | 12000         |
+| Conversion from inch to Centimeters    | User Input   | 12      | 30.48         |
+| Conversion from Hectares to Acres      | User Input   | 12      | 29.6526       |
+
