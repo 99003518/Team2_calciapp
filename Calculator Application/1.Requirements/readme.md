@@ -89,6 +89,22 @@ Y axis – Cost( percent)
 |HL_05	|Symbols for perform the required mathematical operations must be included|
 
 
+////////////////// LOW LEVEL REQUIREMENTS
+
+
+#### LOW LEVEL REQUIREMENTS 
+ 
+ #######LL_06_TP : FACTORIAL
+| ID | DESCRIPTION |
+| ------ | ------ |
+| ( i )| Check for valid input |
+| ( ii )| Perform factorial operation |
+| ( iii )| The calculator has to produce the expected result as defined by the provided arithmetic rules  |
+|  ( iv)| The expected output must be displayed in user readable format |
+|  ( v ) | In case of erroneous situation , the calculator has to display error message to alert the user .|
+
+
+
 
 
 
