@@ -11,8 +11,14 @@
 ![fact_struct](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/struct_uml_factorial.png)
 
 #### behavioural_exponential
-![](/ExponentialBehaviouralDiagram.png)
+![](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/ExponentialBehaviouralDiagram.png)
 
 #### structural_exponential
-![](/ExponentialstructuralDiagram.png)
+![](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/ExponentialstructuralDiagram.png)
 
+![mul_struct](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/Struct_mul.png)
+
+![mul_behave](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/behavioral_mul.png)
+
+
+![alt text](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/3.Design/UML(Modulo%20Division%20%26%20Distance%20Conversion).jpg)
