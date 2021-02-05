@@ -5,6 +5,6 @@
 #include <stdlib.h>
 #include <stdio_ext.h>
 
-int npr(int operand1, int operand2);
+int npr(int n, int r);
 
 #endif 
