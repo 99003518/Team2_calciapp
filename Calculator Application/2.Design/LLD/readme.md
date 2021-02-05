@@ -8,7 +8,7 @@
 ![sub_struct](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/LL_02%20behavioral.png)
 
 #### structural_subtraction
-![sub_struct](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/LL_02%20struct%20diagram.png)
+![sub_struct](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/LL_02%20structural(subtraction).png)
 
 #### behavioural_factorial
 ![fact_behaave](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/behav_uml_factorial.png)
