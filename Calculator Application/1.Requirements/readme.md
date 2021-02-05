@@ -1,4 +1,4 @@
-# BRIEF HISTORY OF A CALCULATOR
+BRIEF HISTORY OF A CALCULATOR
 
 People's best friend has always been, and will always be, calculator. This powerful yet diminutive device has undergone a few significant facelifts over the millennia but their basic functions would be familiar in concept to our ancestors.
 In the very beginning the abacus was introduced .It is a sort of hand operated mechanical calculator using beads on rods, first used by Sumerians and Egyptians around 2000 B C.The abacus was a table of successive columns with beads or stones representing a single unit, which could be used for addition or subtraction. Fast forward 4,500 years to 1617, when Scottish mathematician John Napier published Radiology or “calculation with rods.” In 1642, the first true “calculator” was invented: one that performed calculations through a clockwork-type of mechanism. The Pascal calculator, invented by French inventor and mathematician Blaise Pascal, was lauded for attempting arithmetic calculations previously thought impossible.
@@ -11,29 +11,29 @@ Y axis – Cost( percent)
 
 ![agecost](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/1.Requirements/ageandcost.png)
 
-## FEATURES
-### 1. ABACUS
+ FEATURES
+1. ABACUS
 
 SR NO. | PRONS | CONS
 ------------ | ------------- | ------------- 
 1 | Has a simple working principle. | Complex mathematical operations cannot be performed.
 2 | This made Addition and subtraction less error prone. | Very Time consuming.
 
-### 2.PASCAL CALCULATOR
+2.PASCAL CALCULATOR
 
 SR NO. | PRONS | CONS
 ------------ | ------------- | ------------- 
 1 | First Computer which performed calculations through a clockwork-type of mechanism. | This calculator was very large and bulky.
 2 | This device performs all four arithmetic operations without relying on human intelligence. | It was difficult to perform multiplication and division operation.
 
-### 3.CURTA CALCULATOR
+3.CURTA CALCULATOR
 
 SR NO. | PRONS | CONS
 ------------ | ------------- | ------------- 
 1 | Curta calculator had a very compact model. | It was a mechanical calculator.
 2 | It was capable of performing all the four arithmetic operations easily. | It was expensive.
 
-### 4.SOLID STATE ELECTRONIC CALCULATOR
+4.SOLID STATE ELECTRONIC CALCULATOR
  
 SR NO. | PRONS | CONS
 ------------ | ------------- | ------------- 
@@ -42,17 +42,17 @@ SR NO. | PRONS | CONS
 
 
 
-### 5.MODERN SCIENTIFIC CALCULATOR
+5.MODERN SCIENTIFIC CALCULATOR
 SR NO. | PRONS | CONS
 ------------ | ------------- | ------------- 
 1 | It can compute complex mathematical functions and equations. | It cannot solve integral calculus.
 2 | The computations can be done easily and in just few seconds. | It cannot plot graphs.
 
 
-## PRODUCT DEFINATION
+1. PRODUCT DEFINATION
    (SOLID STATE CALCULATOR)
 
-### 1(A). OLD FEATURES OF THE DEVICE:
+1(A). OLD FEATURES OF THE DEVICE:
 	-An electronic calculator is typically a portable electronic device used to perform calculations, ranging from basic arithmetic to complex mathematics.
 
 	-The first solid-state electronic calculator was created in the early 1960s. Pocket-sized devices became available in the 1970s, especially after the Intel 4004, the first microprocessor, was 	developed by Intel for the Japanese calculator company Busicom. They later became used commonly within the petroleum industry (oil and gas).
@@ -66,7 +66,7 @@ SR NO. | PRONS | CONS
 	-In 1986, calculators still represented an estimated 41% of the world's general-purpose hardware capacity to compute information. By 2007, this had diminished to less than 0.05%
 
 
-### 1(B). FUNCTIONS THAT CAN PERFORMED FROM THE DEVICE:
+1(B). FUNCTIONS THAT CAN PERFORMED FROM THE DEVICE:
 	MC or CM 	Memory Clear
 	MR, RM, or MRC 	Memory Recall
 	M− 	Memory Subtraction
@@ -83,7 +83,7 @@ SR NO. | PRONS | CONS
 	√ 	Square root
 	= 	Result
 
-### 1(C). FUNCTIONS THAT WE WILL INCLUDE IN OUR DEVICE:
+1(C). FUNCTIONS THAT WE WILL INCLUDE IN OUR DEVICE:
 	% 				Percent
 	÷ 				Division
 	× 				Multiplication
@@ -100,11 +100,11 @@ SR NO. | PRONS | CONS
 	[]				modulo
 	||				bitwise operators
 	
-### 1(D). TARGET AUDIENCE:
+1(D). TARGET AUDIENCE:
 	Our target audience are students specifically engineering students, CA's, professionals and any other individual who would require to perform such operations at a single stop.
 
 
-## HIGH LEVEL REQUIREMENTS:
+### HIGH LEVEL REQUIREMENTS:
 |ID |	DESCRIPTION |
 |-----|-----|
 HL_01	|Check for valid inputs|
@@ -117,8 +117,19 @@ HL_02	|Functions and operations mentioned below must be included:<br>01. Additio
  
 
 
-## LOW LEVEL REQUIREMENTS 
- 
+
+
+
+
+
+
+////////////////// LOW LEVEL REQUIREMENTS
+
+
+#### LOW LEVEL REQUIREMENTS
+
+###### LL_02_TP : SUBTRACTION
+![subtraction](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/1.Requirements/LL_02.png)
 ###### LL_06_TP : FACTORIAL
 | ID | DESCRIPTION |
 | ------ | ------ |
