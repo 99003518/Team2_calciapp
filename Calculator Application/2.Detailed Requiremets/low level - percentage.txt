@@ -1,5 +1,0 @@
-﻿Detailed requirements
-Low level – percentage
-Percentage is also referred as percent and it is used to express the fraction of a number out of 100%. 
-Percentage means per one hundred, for example 45% represents 45 out of 100 or 45 percent of the total. 
-
