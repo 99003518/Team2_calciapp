@@ -11,8 +11,8 @@
 ![fact_struct](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/struct_uml_factorial.png)
 
 #### behavioural_exponential
-![](/ExponentialBehaviouralDiagram.png)
+![](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/ExponentialBehaviouralDiagram.png)
 
 #### structural_exponential
-![](/ExponentialstructuralDiagram.png)
+![](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/ExponentialstructuralDiagram.png)
 
