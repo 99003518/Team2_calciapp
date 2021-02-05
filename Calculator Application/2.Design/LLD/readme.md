@@ -9,3 +9,10 @@
 
 #### structural_factorial
 ![fact_struct](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/struct_uml_factorial.png)
+
+#### behavioural_exponential
+![](/ExponentialBehaviouralDiagram.png)
+
+#### structural_exponential
+![](/ExponentialstructuralDiagram.png)
+
