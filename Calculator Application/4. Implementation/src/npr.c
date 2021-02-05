@@ -1,5 +1,5 @@
-#include <npr.h>
-
+#include "npr.h"
+#include<stdio.h>
 int add(int operand1, int operand2)
 {
     return operand1 + operand2;
