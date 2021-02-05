@@ -1,6 +1,6 @@
 #include <expo.h>
 
-float exponent(int b,int e)
+float exponential(int b,int e)
 {
     int base,exp;
     float p;
