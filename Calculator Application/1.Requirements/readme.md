@@ -9,8 +9,7 @@ In the mid-2000s many of the modern smart phones were introduced and with them c
 X axis – Year
 Y axis – Cost( percent)
 
-
-![](/ageandcost.png)
+![agecost](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/1.Requirements/ageandcost.png)
 
 ////////////////// LOW LEVEL REQUIREMENTS
 
