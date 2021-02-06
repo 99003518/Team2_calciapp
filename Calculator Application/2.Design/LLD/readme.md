@@ -19,7 +19,7 @@
 ![fact_behaave](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/LL_06_behavioural.png)
 
 #### structural_exponential
-![](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/ExponentialstructuralDiagram.png)
+![](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/ExponentialBehaviouralDiagram.png)
 
 #### behavioural_exponential
 ![](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/ExponentialBehaviouralDiagram.png)
