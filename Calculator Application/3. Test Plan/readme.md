@@ -97,7 +97,7 @@ Test Plan for nPr and nCr operations As per formula we know the calculations for
 | div of two no          | user i/p     | 4,2          | 0               |
 | div of two negative no | user i/p     | -4,-2        | not correct i/p |
 
-
+Test plan for Bit opertions
  Description                 | Precondition | Expected i/p | Excepted o/p |
 |-----------------------------|--------------|--------------|--------------|
 | operation for unsigned int  | user input   | 60,13        | 12           |
