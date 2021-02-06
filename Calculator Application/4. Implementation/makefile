@@ -33,8 +33,6 @@ src/ncr.c\
 src/npr.c\
 src/percentage.c\
 src/subtraction.c\
-
-test/test_calculator.c\
 unity/unity.c\
 
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
