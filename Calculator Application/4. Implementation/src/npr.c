@@ -1,4 +1,4 @@
-#include "npr.h"
+#include <npr.h>
 #include<stdio.h>
 int fact(int num)
 {
