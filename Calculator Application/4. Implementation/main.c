@@ -57,9 +57,7 @@
 
         }
     }
-    else
-    {
-        printf("Wrong input");
-    }
+    test_main();
+  
     return 0;
  }

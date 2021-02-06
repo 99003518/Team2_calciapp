@@ -63,15 +63,28 @@ Test Plan for nPr and nCr operations As per formula we know the calculations for
 
 #### TEST PLAN(SUBTRACTION)
 
-![Testplan](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/3.%20Test%20Plan/Test%20plan%20for%20subtraction.png)
+| TEST\_ID | DESCRIPTION | EXPECTED INPUT | EXPECTED OUTPUT | TYPE OF TEST |
+| ------ | ------ | ------ | ------ |------|
+|T_01_LL_02_HL_02 |Checking the subtraction of two positive numbers. |Numbers X,Y are positive|Output will be either positive or negative|Requirement based test |
+|T_02_ LL_02_HL_02 |Checking the subtraction of first number which is greater than second number. |Number x>y| Output is positive| Requirement based test |
+|T_03_ LL_02_HL_02 |Checking the subtraction of second number which is greater than first number. | Number x<y|Output is negative| Requirement based test |
+|T_04_ LL_02_HL_02 |Checking the subtraction of both equal number.| Number x=y|Output will be zero| Requirement based test |
+
 
 
 #### TEST PLAN (MULTIPLICATION)
 
-| **Test Id** | **Description** | **Expected input** | **Expected Output** |
+| **Test Id** | **Description** | **Expected input** | **Expected Output** || Description            | Precondition | Expected i/p | Excepted o/p    |
+|------------------------|--------------|--------------|-----------------|
+| div of two no          | user i/p     | 4,2          | 0               |
+| div of two negative no | user i/p     | -4,-2        | not correct i/p |
 | --- | --- | --- | --- |
 | T\_01\_LL\_04\_HL\_02 | Checking the product of two positive numbers. | Numbers a &amp; bgreater than zero | Product greater than zero |
 | T\_02\_LL\_04\_HL\_02 | Checking the product of two negative numbers. | Numbers a &amp; b less than zero | Product greater than zero |
 | T\_03\_LL\_04\_HL\_02 | Checking the product of one positive and one negative number | Number a less than zero &amp; number b greater than zero | Product less than zero |
 | T\_04\_LL\_04\_HL\_02 | Checking the product of one positive and one negative number | Number a greater than zero &amp; number b less than zero | Product less than zero |
-
+#### Test plan for Division
+| Description            | Precondition | Expected i/p | Excepted o/p    |
+|------------------------|--------------|--------------|-----------------|
+| div of two no          | user i/p     | 4,2          | 0               |
+| div of two negative no | user i/p     | -4,-2        | not correct i/p |
