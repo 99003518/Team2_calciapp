@@ -3,7 +3,7 @@
 
 /* Modify these two lines according to the project */
 #include <calculator_operations.h>
-#define PROJECT_NAME    "Calculator Application"
+#define PROJECT_NAME    "Calculator_Application"
 
 /* Prototypes for all the test functions */
 void test_add(void);
