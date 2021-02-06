@@ -185,18 +185,7 @@ HL_02	|Functions and operations mentioned below must be included:<br>01. Additio
 
 **Low Level Requirements for Modulo Division Function**:
 
-| Operator      | Calculation | Comment                                                                                                                                                                                                 |
-|---------------|-------------|-------------------------------------------| REQ\_ID | DESCRIPTION |
-| --- | --- |
-| LL\_04\_HL\_02(i) | Check for valid input |
-| LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
-| LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
-|
-
- |
- |
-
-#--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Operator      | Calculation | Comment  |                                                                                                                                                                                               
 |  Mod Division | 9%4 = 1     | Upon the application of the mod division, we get the remainder of the division. It happens in the following way: 4*2 + 1 = 9 That is the number 4 can be placed two times, and we have 1 in the excess. |
 
 **Low Level Requirements for Distance Conversion Function:**
