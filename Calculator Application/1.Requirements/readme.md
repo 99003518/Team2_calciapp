@@ -285,8 +285,13 @@ Formula:
 
  
 
+# EXPONENTIAL
 
-#
+| REQ\_ID | DESCRIPTION |
+| --- | --- |
+| LL\_05\_HL\_02(i) | Check for valid input |
+| LL\_05\_HL\_02(ii) | Perform exponential operation |
+| LL\_05\_HL\_02(iii) | This operation has to produce the expected results as per arithmetic rules |
 
  
 
