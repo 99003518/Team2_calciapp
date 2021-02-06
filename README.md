@@ -18,7 +18,7 @@
 |DhumaM S|99003524|High level design-Structural diagram , Multiplication||
 |Sneha Anand|99003525|Organiser, High level requirements, factorial |||
 |Doppalapudi Sri Naga Anjaneya|99003527|4W1H, Modulo, Distance Conversions, , LLD for Modulo & Conversions, Low Level Test Plan for Modulo & Conversions, Requirements for Modulo and Conversions||
-|E NagasaiKomali|99003528|||
+|E NagasaiKomali|99003528|swot analysis ,Division and Bit operations,LLd for division and Bit opeartions,LLT for division and Bit operations||
 
 #### TEST SUMMARY
 
@@ -32,4 +32,4 @@
 |Dhuma M S|99003524|||
 |Sneha Anand|99003525|7|7|0|0|
 |Doppalapudi Sri Naga Anjaneya|99003527|11|11|0|0|
-|E NagasaiKomali|99003528|||
+|E NagasaiKomali|99003528|
