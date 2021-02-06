@@ -1,7 +1,6 @@
-all: run clean
+PROJECT_NAME = Airline
 
-
-build = BUILD
+BUILD = build
 
 SRC = main.c\
 src/addition.c\
@@ -37,23 +36,43 @@ src/kmtometer.c\
 Test/test_calculator.c\
 unity/unity.c\
 
+
 TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
 
+# All include folders with header files
+INC	= -Iinc
 
-$(BUILD):
-			mkdir build
+PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
 
-INC = -Iinc\
- -Iunity\
+# Default target built
+$(PROJECT_NAME):all
 
-PROJECT_NAME = Team2.out
+# Run the target even if the matching name exists
+.PHONY: run clean test  doc all
 
-$(PROJECT_NAME): $(SRC)
-	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
+all: $(SRC) $(BUILD)
+	gcc $(SRC) $(INC) -o $(PROJECT_OUTPUT).out
 
 # Call `make run` to run the application
 run:$(PROJECT_NAME)
-	./$(PROJECT_NAME)
+	./$(PROJECT_OUTPUT).out
+
+
+# Build and run the unit tests
+test:$(BUILD)
+	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) -lcunit
+	./$(TEST_OUTPUT)
+
+# Remove all the built files, invoke by `make clean`
+clean:
+	rm -rf $(BUILD)
+
+# Create new build folder if not present
+$(BUILD):
+	mkdir build
+
+
+
 
 
 
