@@ -1,4 +1,4 @@
-PROJECT_NAME = Calculator Application
+PROJECT_NAME = Calculator_Application
 
 BUILD = build
 
