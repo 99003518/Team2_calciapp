@@ -9,7 +9,7 @@ int fact(int num)
 int npr(int n, int r)
 {
     int res;
-    res fact(n)/(fact(n-r));
+    res = fact(n)/(fact(n-r));
     printf("%dp%d is %d",n,r,res);
     return 0;
 }
