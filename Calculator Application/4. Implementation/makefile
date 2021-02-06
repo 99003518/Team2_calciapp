@@ -18,7 +18,7 @@ src/npr.c\
 src/percentage.c\
 src/subtraction.c\
 
-TEST_SRC = src/test_calculator.c\
+TEST_SRC = test/test_calculator.c\
 src/addition.c\
 src/bit.c\
 src/division.c\
