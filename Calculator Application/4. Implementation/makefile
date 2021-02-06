@@ -62,7 +62,7 @@ doc:
 
 test:$(BUILD)
 	gcc $(TEST_SRC) $(INC) -o $(TEST_OUTPUT) $(INCLUDE_LIBS)
-	./$(TEST_OUTPUT)
+		./$(TEST_OUTPUT)
   
   
 clean:
