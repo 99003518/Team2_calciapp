@@ -14,9 +14,9 @@
 |Mone Vennela|99003519|||
 |Sahil K|99003520|High level test plan, percentage||
 |Malavika Rajesh|99003522
-|Spoorthy C P|99003523|||
+|Spoorthy C P|99003523|Cost and Age Reasearch,Subtraction,main file, Low level Test Plan,Design,Requirements||
 |DhumaM S|99003524|High level design-Structural diagram , Multiplication||
-|SnehaAnand|99003525|Organiser, High level requirements, factorial |||
+|Sneha Anand|99003525|Organiser, High level requirements, factorial |||
 |Doppalapudi Sri Naga Anjaneya|99003527|||
 |E NagasaiKomali|99003528|||
 
@@ -24,12 +24,12 @@
 
 |NAME|NUMBER|NUMBER OF TEST CASES| PASS|FAIL |NOT CHECKED |
 |-----|-----|-----|-----|-----|-----|
-|Pranshi Lodha|99003518|||
+|Pranshi Lodha|99003518|5|5|0|0|
 |Mone Vennela|99003519|||
 |Sahil K|99003520|||
 |Malavika Rajesh|99003522
-|Spoorthy C P|99003523|||
-|DhumaM S|99003524|||
-|SnehaAnand|99003525||||
+|Spoorthy C P|99003523|5|5|0|0|
+|Dhuma M S|99003524|||
+|Sneha Anand|99003525|7|7|0|0|
 |Doppalapudi Sri Naga Anjaneya|99003527|||
 |E NagasaiKomali|99003528|||
