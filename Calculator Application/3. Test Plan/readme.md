@@ -63,7 +63,13 @@ Test Plan for nPr and nCr operations As per formula we know the calculations for
 
 #### TEST PLAN(SUBTRACTION)
 
-![Testplan](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/3.%20Test%20Plan/Test%20plan%20for%20subtraction.png)
+| ID |Description | Expected input or state | Expected output or State |Type of test|
+| ------ | ------ | ------ | ------ |------|
+|T_01_LL_02_HL_02 |Checking the subtraction of two positive numbers. | Output will be either positive or negative|
+|T_02_ LL_02_HL_02 |Checking the subtraction of first number which is greater than second number. | Output is positive| 
+|T_03_ LL_02_HL_02 |Checking the subtraction of second number which is greater than first number. | Output is negative| 
+|T_04_ LL_02_HL_02 |Checking the subtraction of both equal number.| Output will be zero| 
+
 
 
 #### TEST PLAN (MULTIPLICATION)
