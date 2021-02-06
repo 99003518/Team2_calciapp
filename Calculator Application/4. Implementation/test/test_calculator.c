@@ -27,6 +27,8 @@ void test_metertokm(void);
 void test_kmtometer(void);
 void test_centitoinch(void);
 void test_inchtocenti(void);
+void test_ncr(void);
+void test_npr(void);
 
 
 
@@ -62,6 +64,9 @@ int main() {
   CU_add_test(suite, "kmtometer", test_kmtometer);
   CU_add_test(suite, "inchtocenti", test_inchtocenti);
   CU_add_test(suite, "centitoinch", test_centitoinch);
+  CU_add_test(suite, "ncr",test_ncr);
+  CU_add_test(suite, "npr",test_npr);
+
 
 
 
@@ -239,4 +244,16 @@ void test_inchtocenti(void) {
   
   /* Dummy fail*/
   CU_ASSERT(1 == inchtocenti(12));
+}
+void test_ncr(void) {
+  CU_ASSERT(35 == ncr(7,3));
+  
+  /* Dummy fail*/
+  CU_ASSERT(0 == ncr(6,6));
+}
+void test_npr(void) {
+  CU_ASSERT(210 == npr(7,3));
+  
+  /* Dummy fail*/
+  CU_ASSERT(0 == npr(6,6));
 }
