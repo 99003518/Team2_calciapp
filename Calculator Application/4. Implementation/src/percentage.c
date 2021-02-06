@@ -35,8 +35,9 @@ float percentage(float operand1,float operand2)
     printf("Percentage = %.2f", result);
     /* The result is rounded off to 2 decimal places */
     }
+    /*After the code gets executed return the result*/
     return result;
-    /*After code gets executed the result will be displayed*/
+    
 }
 
     
