@@ -8,7 +8,7 @@
 /* Prototypes for all the test functions */
 void test_add(void);
 void test_subtract(void);
-void test_multiply(void);
+void test_multiplication(void);
 void test_divide(void);
 void test_power(void);
 void test_square(void);
@@ -41,7 +41,7 @@ int main() {
   /* Add your test functions in this format for testing*/
   CU_add_test(suite, "add", test_add);
   CU_add_test(suite, "subtract", test_subtract);
-  CU_add_test(suite, "multiply", test_multiply);
+  CU_add_test(suite, "multiplication", test_multiplication);
   CU_add_test(suite, "divide", test_divide);
   CU_add_test(suite, "power", test_power);
   CU_add_test(suite, "square", test_square);
@@ -91,11 +91,11 @@ void test_subtract(void) {
   CU_ASSERT(1 == subtract(1000, 900));
 }
 
-void test_multiply(void) {
-  CU_ASSERT(0 == multiply(1, 0));
+void test_multiplication(void) {
+  CU_ASSERT(0 == multiplication(1, 0));
   
   /* Dummy fail*/
-  CU_ASSERT(2 == multiply(2, 5));
+  CU_ASSERT(2 == multiplication(2, 5));
 }
 
 void test_divide(void) {
