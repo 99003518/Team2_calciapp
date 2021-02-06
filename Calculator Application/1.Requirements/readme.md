@@ -185,8 +185,9 @@ HL_02	|Functions and operations mentioned below must be included:<br>01. Additio
 
 **Low Level Requirements for Modulo Division Function**:
 
-| Operator      | Calculation | Comment  |                                                                                                                                                                                               
-|  Mod Division | 9%4 = 1     | Upon the application of the mod division, we get the remainder of the division. It happens in the following way: 4*2 + 1 = 9 That is the number 4 can be placed two times, and we have 1 in the excess. |
+| operator     | Calculation | Comment                                                                                                                                                                                                 |
+|--------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| Mod Division | 9%4 = 1     | Upon the application of the mod division, we get the remainder of the division. It happens in the following way: 4*2 + 1 = 9 That is the number 4 can be placed two times, and we have 1 in the excess. |
 
 **Low Level Requirements for Distance Conversion Function:**
 
