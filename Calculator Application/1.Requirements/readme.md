@@ -181,7 +181,7 @@ HL_02	|Functions and operations mentioned below must be included:<br>01. Additio
 **Low Level Requirements for percentage:**
 Operator|Calculation|Comment|
 | :-: | :-: | :-: |
-|Percentage operator|(80/100)\*100 = 80%|The numbers considered should be greater than zero. Percentage is also referred as percent and it is used to express the fraction of a number out of 100%. Percentage means per one hundred, for example 45% represents 45 out of 100 or 45 percent of the total.|
+|Percentage operator|(80/100)\*100 = 80%|The numbers considered should be greater than zero. Percentage is also referred as percent and it is used to express the fraction of a number out of 100%. Percentage means per one hundred, for example 80% represents 80 out of 100 or 80 percent of the total.|
 
 
 
