@@ -102,7 +102,7 @@ Test plan for Bit Opertions:
 |-----------------------------|--------------|--------------|--------------|
 | operation for unsigned int (&) | user input   | 60,13        | 12           |
 | operation for unsigned int (or)| user input   | 60,13        | 61           |
-| operation for unsigned int  ()| user input   | 60,13        | 49           |
-| operation for unsigned int  ()| user input   | 60,13        | -61          |
-| operation for unsigned int  ()| user input   | 60,13        | 240          |
-| operation for unsigned int  ()| user input   | 60,13        | 15           |
+| operation for unsigned int  (^)| user input   | 60,13        | 49           |
+| operation for unsigned int  (~)| user input   | 60,13        | -61          |
+| operation for unsigned int  (<<)| user input   | 60,13        | 240          |
+| operation for unsigned int  (>>)| user input   | 60,13        | 15           |
