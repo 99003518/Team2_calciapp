@@ -11,7 +11,7 @@ src/mul.c\
 src/ncr.c\
 src/npr.c\
 src/percentage.c\
-src/bitoperations.c\
+src/bit.c\
 src/division.c\
 src/modulo.c\
 src/sub.c\
@@ -27,7 +27,7 @@ src/mul.c\
 src/ncr.c\
 src/npr.c\
 src/percentage.c\
-src/bitoperations.c\
+src/bit.c\
 src/division.c\
 src/modulo.c\
 src/sub.c\
