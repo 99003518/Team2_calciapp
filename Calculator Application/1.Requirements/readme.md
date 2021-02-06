@@ -152,33 +152,83 @@ HL_02	|Functions and operations mentioned below must be included:<br>01. Additio
 | ( iii )| The calculator has to produce the expected result as defined by the provided arithmetic rules  |
 |  ( iv)| The expected output must be displayed in user readable format |
 
-###### LL_06_TP : FACTORIAL
+###### LL_06_TP : FACTORIAL| REQ\_ID | DESCRIPTION |
+| --- | --- |
+| LL\_04\_HL\_02(i) | Check for valid input |
+| LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
+| LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
+|
+
+ |
+ |
+
+#
 | ID | DESCRIPTION |
 | ------ | ------ |
 | ( i )| Check for valid input |
 | ( ii )| Perform factorial operation |
 | ( iii )| The calculator has to produce the expected result as defined by the provided arithmetic rules  |
 |  ( iv)| The expected output must be displayed in user readable format |
-|  ( v ) | In case of erroneous situation , the calculator has to display error message to alert the user .|
+|  ( v ) | In case of erroneous situation , the calculator has to display | REQ\_ID | DESCRIPTION |
+| --- | --- |
+| LL\_04\_HL\_02(i) | Check for valid input |
+| LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
+| LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
+|
+
+ |
+ |
+
+#error message to alert the user .|
 
 
 
 **Low Level Requirements for Modulo Division Function**:
 
 | Operator      | Calculation | Comment                                                                                                                                                                                                 |
-|---------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+|---------------|-------------|-------------------------------------------| REQ\_ID | DESCRIPTION |
+| --- | --- |
+| LL\_04\_HL\_02(i) | Check for valid input |
+| LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
+| LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
+|
+
+ |
+ |
+
+#--------------------------------------------------------------------------------------------------------------------------------------------------------------|
 |  Mod Division | 9%4 = 1     | Upon the application of the mod division, we get the remainder of the division. It happens in the following way: 4*2 + 1 = 9 That is the number 4 can be placed two times, and we have 1 in the excess. |
 
 **Low Level Requirements for Distance Conversion Function:**
 
-| ID    | Conversion           | Description                                                                                               |
+| ID    | Conversion           | Description                              | REQ\_ID | DESCRIPTION |
+| --- | --- |
+| LL\_04\_HL\_02(i) | Check for valid input |
+| LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
+| LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
+|
+
+ |
+ |
+
+#                                                                 |
 |-------|----------------------|-----------------------------------------------------------------------------------------------------------|
 | LL_01 | Kilometers to meters | The length in kilometers is equal to the meters multiplied by 1,000.                                      |
 | LL_02 | Hectare to Acres     | To convert from hectares to acres, multiply your figure by 2.4710538146717 (or divide by 0.40468564224) . |
 | LL_03 | Inch to Centimeters  | To convert inches to the centimeter values, multiply the given inch value by 2.54 cm.                     |
 
 
-**Low Level Requirements for percentage:**
+**Low Level Requirements for percentage:**| REQ\_ID | DESCRIPTION |
+| --- | --- |
+| LL\_04\_HL\_02(i) | Check for valid input |
+| LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
+| LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
+|
+
+ |
+ |
+
+#
 Operator|Calculation|Comment|
 | :-: | :-: | :-: |
 |Percentage operator|(80/100)\*100 = 80%|The numbers considered should be greater than zero. Percentage is also referred as percent and it is used to express the fraction of a number out of 100%. Percentage means per one hundred, for example 80% represents 80 out of 100 or 80 percent of the total.|
@@ -186,7 +236,37 @@ Operator|Calculation|Comment|
 
 **Low Level Requirements for nPr and nCr functions in calculator**
 nPr:
-The whole or a part of the set of objects are arranged in a manner considering the order of management is termed as Permutations. They are generally described as distinct objects taken in a specific time. Here is the Permutation Formula which guides you to calculate the permutations count in a simple manner. This nPr formula requires n and r values for performing calculations. Permutation formula nPr is one of the most used formulae by high-grade school students.
+The whole or a part of the set of objects are arranged in a manner considering the order of management is termed as Permutations. They are generally described as distinct objects taken in a specific time. Here is the Permutation Formula| REQ\_ID | DESCRIPTION |
+| --- | --- |
+| LL\_04\_HL\_02(i) | Check for valid input |
+| LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
+| LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
+|
+
+ |
+ |
+
+#| REQ\_ID | DESCRIPTION |
+| --- | --- |
+| LL\_04\_HL\_02(i) | Check for valid input |
+| LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
+| LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
+|
+
+ || REQ\_ID | DESCRIPTION |
+| --- | --- |
+| LL\_04\_HL\_02(i) | Check for valid input |
+| LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
+| LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
+|
+
+ |
+ |
+
+#
+ |
+
+# which guides you to calculate the permutations count in a simple manner. This nPr formula requires n and r values for performing calculations. Permutation formula nPr is one of the most used formulae by high-grade school students.
 Formula:
 nPr = n!/(n-r)!
 nCr:
@@ -194,9 +274,19 @@ nCr:
 Formula:
 	nCr=n!/((n-r)!*r!)
 
+# Multiplication
+
+| REQ\_ID | DESCRIPTION |
+| --- | --- |
+| LL\_04\_HL\_02(i) | Check for valid input |
+| LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
+| LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
 
 
+ 
 
+
+#
 
  
 
