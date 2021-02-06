@@ -11,7 +11,7 @@
 |NAME|NUMBER|FEATURE|ISSUES RAISED|ISSUES RESOLVED|
 |-----|-----|-----|-----|-----|
 |Pranshi Lodha|99003518|Integrator, Product definition and Addition|||
-|Mone Vennela|99003519|||
+|Mone Vennela|99003519|HLD Behavioural Diagram,nCr,nPr||
 |Sahil K|99003520|High level test plan, percentage||
 |Malavika Rajesh|99003522
 |Spoorthy C P|99003523|Cost and Age Reasearch,Subtraction,main file, Low level Test Plan,Design,Requirements||
@@ -25,7 +25,7 @@
 |NAME|NUMBER|NUMBER OF TEST CASES| PASS|FAIL |NOT CHECKED |
 |-----|-----|-----|-----|-----|-----|
 |Pranshi Lodha|99003518|5|5|0|0|
-|Mone Vennela|99003519|||
+|Mone Vennela|99003519|10|10|0|0|
 |Sahil K|99003520|||
 |Malavika Rajesh|99003522
 |Spoorthy C P|99003523|5|5|0|0|
