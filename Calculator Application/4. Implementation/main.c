@@ -26,21 +26,21 @@
         scanf("%d",&operation);
         switch(n)
         {
-            case 1: addition(a,b);
+            case 1: add(a,b);
                     break;
             case 2: sub(a,b);
                     break;
-            case 3: Division(n1,n2);
+            case 3: div(n1,n2);
                     break;
-            case 4: Multiplication(a,b);
+            case 4: multiplication(a,b);
                     break;
-            case 5: Exponential(b,e);
+            case 5: exponential(b,e);
                     break;
             case 6: Factorial(num);
                     break;
-            case 7: Modulo(num1,num2);
+            case 7: modulo(num1,num2);
                     break;
-            case 8: Percentage(operand1,operand2);
+            case 8: percentage(operand1,operand2);
                     break;
             case 9: npr(n,r);
                     break;
@@ -52,7 +52,7 @@
                      break;
             case 13: kmtometer(num);
                      break;
-            case 12: Bitwiseoperations(a,b);
+            case 12: bit(a,b);
                      break;
 
         }
