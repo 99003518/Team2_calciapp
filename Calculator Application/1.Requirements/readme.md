@@ -145,7 +145,6 @@ HL_02	|Functions and operations mentioned below must be included:<br>01. Additio
 ## LOW LEVEL REQUIREMENTS
 
 ###### LL_02_TP : SUBTRACTION
-###### LL_06_TP : FACTORIAL
 | ID | DESCRIPTION |
 | ------ | ------ |
 | ( i )| Check for valid input|
