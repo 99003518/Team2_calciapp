@@ -93,6 +93,9 @@ void test_subtract(void) {
 
 void test_multiplication(void) {
   CU_ASSERT(0 == multiplication(1, 0));
+  CU_ASSERT(4 == multiplication(-2, -2));
+  CU_ASSERT(-10 == multiplication(-5, 2));
+  CU_ASSERT(-200 == multiplication(50, -4));
   
   /* Dummy fail*/
   CU_ASSERT(2 == multiplication(2, 5));
