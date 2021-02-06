@@ -145,7 +145,13 @@ HL_02	|Functions and operations mentioned below must be included:<br>01. Additio
 ## LOW LEVEL REQUIREMENTS
 
 ###### LL_02_TP : SUBTRACTION
-![subtraction](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/1.Requirements/LL_02.png)
+###### LL_06_TP : FACTORIAL
+| ID | DESCRIPTION |
+| ------ | ------ |
+| ( i )| Check for valid input|
+| ( ii )| Perform Subtraction operation|
+| ( iii )| The calculator has to produce the expected result as defined by the provided arithmetic rules  |
+|  ( iv)| The expected output must be displayed in user readable format |
 
 ###### LL_06_TP : FACTORIAL
 | ID | DESCRIPTION |
