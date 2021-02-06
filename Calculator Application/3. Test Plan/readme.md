@@ -58,6 +58,8 @@ Test Plan for nPr and nCr operations As per formula we know the calculations for
 | Conversion from Kilometer’s to meter’s | User Input   | 12      | 12000         |
 | Conversion from inch to Centimeters    | User Input   | 12      | 30.48         |
 | Conversion from Hectares to Acres      | User Input   | 12      | 29.6526       |
+| Conversion from Hectares to Acres      | User Input   | 30      | 74.1316       |
+
 
 
 
