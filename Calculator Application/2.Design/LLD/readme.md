@@ -13,13 +13,14 @@
 ![sub_struct](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/LL_02%20structural(subtraction).png)
 
 #### structural_factorial
-![fact_struct](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/struct_uml_factorial.png)
+![fact_struct](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/LL_06_structural.png)
 
 #### behavioural_factorial
-![fact_behaave](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/behav_uml_factorial.png)
+![fact_behaave](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/LL_06_behavioural.png)
 
 #### structural_exponential
 ![](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/ExponentialstructuralDiagram.png)
+
 
 #### behavioural_exponential
 ![](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/ExponentialBehaviouralDiagram.png)
