@@ -46,7 +46,7 @@ $(BUILD):
 INC = -Iinc\
  -Iunity\
 
-PROJECT_NAME = group2.out
+PROJECT_NAME = Team2.out
 
 $(PROJECT_NAME): $(SRC)
 	gcc $(SRC) $(INC) -o $(PROJECT_NAME)
