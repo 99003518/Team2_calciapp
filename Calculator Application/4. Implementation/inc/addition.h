@@ -1,5 +1,5 @@
-#ifndef __ADDITION_OPERATIONS_H__
-#define __ADDITION_OPERATIONS_H__
+#ifndef __ADDITION_H__
+#define __ADDITION_H__
 
 #include <stdio.h>
 #include <stdlib.h>
