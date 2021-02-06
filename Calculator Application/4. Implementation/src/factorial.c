@@ -1,51 +1,26 @@
-#include<stdio.h>
-#include "factorial.h"
+#include <factorial.h>
 
-int getN();
-int factorial(int num );
-int result;
-
-int main()
+int factorial(int num)
 {
-    int N;
-    N=getN();
-    if(N==0||N==1)
+    int n, i;
+    unsigned long long fact = 1;
+    printf("Enter an integer: ");
+    scanf("%d", &n);
+
+    // shows error if the user enters a negative integer
+    if (n < 0)
+        printf("Error! Factorial of a negative number doesn't exist.");
+    else if (n>11)
     {
-        printf("factorial of entered number is 1");
+        printf("enter number from 0 to 11only ");
     }
-    else if (N>11)
-    {
-        printf("please enter a number between 0 to 11");
-    }
-    else{
-        result=N;
-        factorial(N);
-        printf(" %d ! = %d ", N,result);
-    }
-    
-}
-int factorial( int num )
-{
-    num--;
-    if (num==0)
-        return 1;
-    else
-        result*=num;
-        factorial(num);
-        return result;
-}
-
-int getN()
-{
-    int num;
-    do{
-        printf("enter the number");
-        scanf("%d",&num);
-        if(num<0)
-        {
-            printf("please enter a number greater than zero");
+    else {
+        for (i = 1; i <= n; ++i) {
+            fact *= i;
         }
-    }while(num<0);
-    return num;
+        printf("Factorial of %d = %llu", n, fact);
+    }
+
+    return 0;
 }
 
