@@ -14,7 +14,7 @@ src/percentage.c\
 src/bit.c\
 src/division.c\
 src/modulo.c\
-src/sub.c\
+src/subtraction.c\
 src/hectaretoacre.c\
 src/inchtocentimeter.c\
 src/kmtometer.c\
@@ -30,7 +30,7 @@ src/percentage.c\
 src/bit.c\
 src/division.c\
 src/modulo.c\
-src/sub.c\
+src/subtraction.c\
 src/hectaretoacre.c\
 src/inchtocentimeter.c\
 src/kmtometer.c\
