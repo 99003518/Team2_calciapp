@@ -107,7 +107,7 @@ Percentage means per one hundred, for example 45% represents 45 out of 100 or 45
 	
 ### 1(D). TARGET AUDIENCE:
 	Our target audience are students specifically engineering students, CA's, professionals and any other individual who would require to perform such operations at a single stop.
-
+https://github.com/enskomali/pccalci/blob/main/Requirements/WhatsApp%20Image%202021-02-05%20at%201.00.35%20PM.jpeg
 
 ## 4W-1H
 
