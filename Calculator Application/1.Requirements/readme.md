@@ -103,7 +103,7 @@ Percentage means per one hundred, for example 45% represents 45 out of 100 or 45
 	!				factorial
 	e,e^				exponential
 	[]				modulo
-	||				bitwise operators
+	||				bitwise operators43.18
 	
 ### 1(D). TARGET AUDIENCE:
 	Our target audience are students specifically engineering students, CA's, professionals and any other individual who would require to perform such operations at a single stop.
@@ -159,7 +159,7 @@ HL_02	|Functions and operations mentioned below must be included:<br>01. Additio
 | LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
 |
 
- |
+ |43.18
  |
 
 #
@@ -201,18 +201,7 @@ HL_02	|Functions and operations mentioned below must be included:<br>01. Additio
 
 **Low Level Requirements for Distance Conversion Function:**
 
-| ID    | Conversion           | Description                              | REQ\_ID | DESCRIPTION |
-| --- | --- |
-| LL\_04\_HL\_02(i) | Check for valid input |
-| LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
-| LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
-|
-
- |
- |
-
-#                                                                 |
-|-------|----------------------|-----------------------------------------------------------------------------------------------------------|
+| ##ID    | ##Conversion           | ##Description      |
 | LL_01 | Kilometers to meters | The length in kilometers is equal to the meters multiplied by 1,000.                                      |
 | LL_02 | Hectare to Acres     | To convert from hectares to acres, multiply your figure by 2.4710538146717 (or divide by 0.40468564224) . |
 | LL_03 | Inch to Centimeters  | To convert inches to the centimeter values, multiply the given inch value by 2.54 cm.                     |
