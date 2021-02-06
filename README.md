@@ -15,7 +15,7 @@
 |Sahil K|99003520|High level test plan, percentage||
 |Malavika Rajesh|99003522
 |Spoorthy C P|99003523|||
-|DhumaM S|99003524|||
+|DhumaM S|99003524|High level design-Structural diagram , Multiplication||
 |SnehaAnand|99003525|Organiser, High level requirements, factorial |||
 |Doppalapudi Sri Naga Anjaneya|99003527|||
 |E NagasaiKomali|99003528|||
