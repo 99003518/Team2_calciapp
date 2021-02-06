@@ -19,11 +19,11 @@
 #### TEST PLAN (FACTORIAL)
 | ID |Description | Expected input or state | Expected output or State |Type of test|
 | ------ | ------ | ------ | ------ |------|
-|T_01_LL_06_HL_02 |Check whether the input is less than 0 |N= -3 |Error message | Requirement based test|
-|T_02_ LL_06_HL_02 |Check whether the input is 0| N= 0 |1 |Requirement based test|
-|T_03_ LL_06_HL_02 |Check whether the input is 1 |N=1 |1 |Requirement based test|
-|T_04_ LL_06_HL_02 |Check whether the input is greater than 0 but less than 11| N= 8 |40,320|Requirement based test|
-|T_03_ LL_06_HL_02 |Check whether the input is greater than 11 |N=23 |Error message |Boundary based test|
+|T_01_LL_06_HL_02 |Check output when the input is less than 0 |N= -3 |Error message | Requirement based test|
+|T_02_ LL_06_HL_02 |Check output when the input is 0| N= 0 |1 |Requirement based test|
+|T_03_ LL_06_HL_02 |Check output when  the input is 1 |N=1 |1 |Requirement based test|
+|T_04_ LL_06_HL_02 |Check output when the input is greater than 0 but less than 11| N= 8 |40,320|Requirement based test|
+|T_03_ LL_06_HL_02 |Check output when  the input is greater than 11 |N=23 |Error message |Boundary based test|
 
 #### Test Plan (nPr and nCr)
 Test Plan for nPr and nCr operations As per formula we know the calculations for both nPr and nCr operations include factorial operation Here we listed some factorials, nPr and nCr calculations
