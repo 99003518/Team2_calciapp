@@ -28,7 +28,7 @@
         {
             case 1: addition(a,b);
                     break;
-            case 2: subtraction(a,b);
+            case 2: sub(a,b);
                     break;
             case 3: Division(n1,n2);
                     break;
