@@ -12,7 +12,7 @@
 |-----|-----|-----|-----|-----|
 |Pranshi Lodha|99003518|Integrator, Product definition and Addition|||
 |Mone Vennela|99003519|HLD Behavioural Diagram,nCr,nPr||
-|Sahil K|99003520|High level test plan, percentage||
+|Sahil K|99003520|High level test plan, percentage, low level design for percentage, low level requirement for percentage ||
 |Malavika Rajesh|99003522
 |Spoorthy C P|99003523|Cost and Age Reasearch,Subtraction,main file, Low level Test Plan,Design,Requirements||
 |DhumaM S|99003524|High level design-Structural diagram , Multiplication||
