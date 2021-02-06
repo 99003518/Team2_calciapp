@@ -14,7 +14,7 @@
 |Mone Vennela|99003519|HLD Behavioural Diagram,nCr,nPr||
 |Sahil K|99003520|High level test plan, percentage, low level design for percentage, low level requirement for percentage ||
 |Malavika Rajesh|99003522
-|Spoorthy C P|99003523|Cost and Age Reasearch,Subtraction,main file, Low level Test Plan,Design,Requirements||
+|Spoorthy C P|99003523,stepin105186|Cost and Age Reasearch,Subtraction,main file, Low level Test Plan,Design,Requirements||
 |DhumaM S|99003524|High level design-Structural diagram , Multiplication||
 |Sneha Anand|99003525|Organiser, High level requirements, factorial |||
 |Doppalapudi Sri Naga Anjaneya|99003527|4W1H, Modulo, Distance Conversions, , LLD for Modulo & Conversions, Low Level Test Plan for Modulo & Conversions, Requirements for Modulo and Conversions||
@@ -28,7 +28,7 @@
 |Mone Vennela|99003519|10|10|0|0|
 |Sahil K|99003520|||
 |Malavika Rajesh|99003522
-|Spoorthy C P|99003523|5|5|0|0|
+|Spoorthy C P|99003523,stepin105186|5|5|0|0|
 |Dhuma M S|99003524|||
 |Sneha Anand|99003525|7|7|0|0|
 |Doppalapudi Sri Naga Anjaneya|99003527|11|11|0|0|
