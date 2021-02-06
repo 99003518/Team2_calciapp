@@ -12,7 +12,7 @@
 |-----|-----|-----|-----|-----|
 |Pranshi Lodha|99003518|Integrator, Product definition and Addition|||
 |Mone Vennela|99003519|||
-|Sahil K|99003520|||
+|Sahil K|99003520|High level test plan, percentage||
 |Malavika Rajesh|99003522
 |Spoorthy C P|99003523|||
 |DhumaM S|99003524|||
