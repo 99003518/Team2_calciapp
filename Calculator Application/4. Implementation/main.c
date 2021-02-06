@@ -30,7 +30,7 @@
                     break;
             case 2: subtraction(a,b);
                     break;
-            case 3: Division(n1,n2);
+            case 3: division(n1,n2);
                     break;
             case 4: Multiplication(a,b);
                     break;
@@ -52,7 +52,7 @@
                      break;
             case 13: kmtometer(num);
                      break;
-            case 12: Bitwiseoperations(a,b);
+            case 14: Bitwiseoperations(a,b);
                      break;
 
         }

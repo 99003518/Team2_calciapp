@@ -5,6 +5,6 @@
 #include<stdio.h>
 #include <stdlib.h>
 
-int div(int operand1, int operand2);
+int division(int operand1, int operand2);
 
 #endif

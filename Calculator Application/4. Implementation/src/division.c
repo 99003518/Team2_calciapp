@@ -1,6 +1,6 @@
 
 #include <division.h>
-int division(n1,n2) {
+int division(int n3,int n4) {
     int n1, n2; 
     int quotient, remainder;
     printf("Enter n1: ");
