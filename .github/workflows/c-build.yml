@@ -17,4 +17,3 @@ jobs:
     - name: make all
       run:  make all -C Calculator Application/4. Implementation/
       
-      
