@@ -63,12 +63,12 @@ Test Plan for nPr and nCr operations As per formula we know the calculations for
 
 #### TEST PLAN(SUBTRACTION)
 
-| ID |Description | Expected output or State |Type of test|
+| TEST\_ID | DESCRIPTION | EXPECTED INPUT | EXPECTED OUTPUT | TYPE OF TEST |
 | ------ | ------ | ------ | ------ |------|
-|T_01_LL_02_HL_02 |Checking the subtraction of two positive numbers. | Output will be either positive or negative|Requirement based test |
-|T_02_ LL_02_HL_02 |Checking the subtraction of first number which is greater than second number. | Output is positive| Requirement based test |
-|T_03_ LL_02_HL_02 |Checking the subtraction of second number which is greater than first number. | Output is negative| Requirement based test |
-|T_04_ LL_02_HL_02 |Checking the subtraction of both equal number.| Output will be zero| Requirement based test |
+|T_01_LL_02_HL_02 |Checking the subtraction of two positive numbers. |Numbers X,Y are positive|Output will be either positive or negative|Requirement based test |
+|T_02_ LL_02_HL_02 |Checking the subtraction of first number which is greater than second number. |Number x>y| Output is positive| Requirement based test |
+|T_03_ LL_02_HL_02 |Checking the subtraction of second number which is greater than first number. | Number x<y|Output is negative| Requirement based test |
+|T_04_ LL_02_HL_02 |Checking the subtraction of both equal number.| Number x=y|Output will be zero| Requirement based test |
 
 
 
