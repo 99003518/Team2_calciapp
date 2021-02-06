@@ -8,5 +8,8 @@ int fact(int num)
 }
 int npr(int n, int r)
 {
-    return fact(n)/(fact(n-r));
+    int res;
+    res fact(n)/(fact(n-r));
+    printf("%dp%d is %d",n,r,res);
+    return 0;
 }
