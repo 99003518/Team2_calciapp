@@ -29,7 +29,7 @@
 |Sahil K|99003520|||
 |Malavika Rajesh|99003522|3|3|0|0
 |Spoorthy C P|99003523|5|5|0|0|
-|Dhuma M S|99003524|||
+|Dhuma M S|99003524|4|4|0|0|
 |Sneha Anand|99003525|7|7|0|0|
 |Doppalapudi Sri Naga Anjaneya|99003527|||
 |E NagasaiKomali|99003528|||
