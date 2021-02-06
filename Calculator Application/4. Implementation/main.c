@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<addition.h>
-#include<subtraction.h>
+#include<subtaction.h>
 #include<mul.h>
 #include<division.h>
 #include<expo.h>
@@ -30,11 +30,10 @@
                     break;
             case 2: sub(a,b);
                     break;
-<<<<<<< HEAD
+
             case 3: division(n1,n2);
-=======
-            case 3: div(n1,n2);
->>>>>>> 757d4c0da05099fbb38c85fe09adef193f61b812
+
+
                     break;
             case 4: multiplication(a,b);
                     break;
@@ -56,16 +55,14 @@
                      break;
             case 13: kmtometer(num);
                      break;
-<<<<<<< HEAD
-            case 14: Bitwiseoperations(a,b);
-=======
-            case 12: bit(a,b);
->>>>>>> 757d4c0da05099fbb38c85fe09adef193f61b812
+
+            case 14: bitoperations(a,b);
+
                      break;
 
         }
     }
-    test_main();
+    
   
     return 0;
  }

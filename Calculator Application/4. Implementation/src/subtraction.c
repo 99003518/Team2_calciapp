@@ -1,6 +1,6 @@
-#include <subtraction.h>
+#include <subtaction.h>
 
-int sub(int a, int b)
+int sub(int c, int d)
 {
     int sub,a,b;
     printf("Enter the first number: ");

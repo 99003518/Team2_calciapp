@@ -6,6 +6,6 @@
 #include<stdio.h>
 #include <stdlib.h>
 
-int bit(int operand1, int operand2);
+int bitoperations(int operand1, int operand2);
 
 #endif

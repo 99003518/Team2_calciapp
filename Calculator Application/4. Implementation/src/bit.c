@@ -1,6 +1,6 @@
 #include <bitoperations.h>
 
- int bitoperations() {
+ int bitoperations(int e,int d) {
 
    unsigned int a ;	 
    unsigned int b ;	
