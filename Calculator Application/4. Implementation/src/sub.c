@@ -2,5 +2,8 @@
 
 int subtraction(int a, int b)
 {
-    return a-b;  
+    int sub;
+    sub = a+b;
+    printf("Result = %d ",sub;
+    return sub;
 }
