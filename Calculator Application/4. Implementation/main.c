@@ -1,6 +1,6 @@
 #include<stdio.h>
 #include<addition.h>
-#include<sub.h>
+#include<subtraction.h>
 #include<mul.h>
 #include<division.h>
 #include<expo.h>

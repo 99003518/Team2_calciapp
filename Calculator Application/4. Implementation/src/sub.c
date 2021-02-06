@@ -1,4 +1,4 @@
-#include<sub.h>
+#include<subtraction.h>
 
 int subtraction(int a, int b)
 {
