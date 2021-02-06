@@ -10,7 +10,7 @@ void test_add(void);
 void test_subtract(void);
 void test_multiply(void);
 void test_divide(void);
-void test_power(void);
+void test_exponential(void);
 void test_square(void);
 void test_prime(void);
 void test_smaller(void);
@@ -43,7 +43,7 @@ int main() {
   CU_add_test(suite, "subtract", test_subtract);
   CU_add_test(suite, "multiply", test_multiply);
   CU_add_test(suite, "divide", test_divide);
-  CU_add_test(suite, "power", test_power);
+  CU_add_test(suite, "exponential", test_exponential);
   CU_add_test(suite, "square", test_square);
   CU_add_test(suite, "prime", test_prime);
   CU_add_test(suite, "smaller", test_smaller);
@@ -105,11 +105,17 @@ void test_divide(void) {
   CU_ASSERT(3 == divide(2, 2));
 }
 
-void test_power(void) {
-  CU_ASSERT(100 == power(10, 2));
+void test_exponential(void) {
+  
+  CU_ASSERT(100 == exponential(10, 2));
+  CU_ASSERT(0.5 == exponential(2, -1));
+  CU_ASSERT(1 == exponential(6, 0));
+
   
   /* Dummy fail*/
-  CU_ASSERT(3 == power(2, 2));
+  CU_ASSERT(3 == exponential(2, 2));
+  CU_ASSERT(0.6 == exponential(3, -1);
+  CU_ASSERT(10 == exponential(10, 0));
 }
 
 void test_square(void) {
