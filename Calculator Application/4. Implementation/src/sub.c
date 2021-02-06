@@ -3,7 +3,7 @@
 int subtraction(int a, int b)
 {
     int sub;
-    sub = a+b;
-    printf("Result = %d ",sub;
+    sub = a - b;
+    printf("Result = %d ",sub);
     return sub;
 }
