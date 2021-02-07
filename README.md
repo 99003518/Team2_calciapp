@@ -16,7 +16,7 @@
 |Malavika Rajesh|99003522
 |Spoorthy C P|99003523,stepin105186|Cost and Age Reasearch,Subtraction,main file, Low level Test Plan,Design,Requirements||
 |DhumaM S|99003524|High level design-Structural diagram , Multiplication||
-|Sneha Anand|99003525|Organiser, High level requirements, low level requirements and test plan for factorial |||
+|Sneha Anand|99003525 , stepin104339|Organiser, High level requirements, low level requirements and test plan for factorial |||
 |Doppalapudi Sri Naga Anjaneya|99003527|4W1H, Modulo, Distance Conversions, , LLD for Modulo & Conversions, Low Level Test Plan for Modulo & Conversions, Requirements for Modulo and Conversions||
 |E NagasaiKomali|99003528|swot analysis ,Division and Bit operations,LLd for division and Bit opeartions,LLT for division and Bit operations||
 
