@@ -3,6 +3,7 @@
 
 ![cppcheck-action](https://github.com/99003518/Team2_calciapp/workflows/cppcheck-action/badge.svg)
 ![C/C++ CI](https://github.com/99003518/Team2_calciapp/workflows/C/C++%20CI/badge.svg)
+![Unit testing](https://github.com/99003518/Team2_calciapp/workflows/Unit%20testing/badge.svg)
 
 
 ## TEAM 2
