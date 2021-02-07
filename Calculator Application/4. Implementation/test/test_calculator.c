@@ -293,7 +293,7 @@ void test_inchtocentimeter(void) {
 void test_ncr(void) {
   CU_ASSERT(35 == ncr(7,3));
   CU_ASSERT(10 == ncr(5,2));
-  CU_ASSERT(56 == ncr(8,3));
+  CU_ASSERT(1 == ncr(4,0));
   CU_ASSERT(252 == ncr(10,5));
   
   /* Dummy fail*/
@@ -302,8 +302,8 @@ void test_ncr(void) {
 void test_npr(void) {
   CU_ASSERT(210 == npr(7,3));
   CU_ASSERT(6720== npr(8,5));
-  CU_ASSERT(12 == npr(4,2));
-  CU_ASSERT(1 == npr(9,0));
+  CU_ASSERT(1 == npr(4,0));
+  CU_ASSERT(9 == npr(9,1));
   
   /* Dummy fail*/
   CU_ASSERT(0 == npr(6,6));
