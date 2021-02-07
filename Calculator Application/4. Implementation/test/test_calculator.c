@@ -66,7 +66,7 @@ int main()
   RUN_TEST(test_factorial);
   RUN_TEST(test_modulo);
   RUN_TEST(test_kmtometer);
-  RUN_TEST(test_inchto);
+  //RUN_TEST(test_inchto);
   RUN_TEST(test_factorial);
   RUN_TEST(test_modulo);
   RUN_TEST(test_kmtometer);
