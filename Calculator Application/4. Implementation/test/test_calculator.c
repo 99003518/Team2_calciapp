@@ -263,10 +263,10 @@ void test_centitometer(void) {
   CU_ASSERT(1 == centitometer(12));
 }*/
 
-//void test_kmtometer(void) {
- // CU_ASSERT(1000 == kmtometer(1));
+void test_kmtometer(void) {
+  CU_ASSERT(1000 == kmtometer(1));
   
-  /* Dummy fail
+  /* Dummy fail*/
   CU_ASSERT(1 == kmtometer(12));
 }
 
