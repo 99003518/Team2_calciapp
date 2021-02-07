@@ -130,7 +130,7 @@ void test_divide(void) {
   CU_ASSERT(3 == divide(2, 2));
 }
 
-void test_exponential(void) {
+void test_exponential(void){
   
   CU_ASSERT(100 == exponential(10, 2));
   CU_ASSERT(0.5 == exponential(2, -1));
