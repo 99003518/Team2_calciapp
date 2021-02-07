@@ -13,7 +13,7 @@
 |NAME|NUMBER|FEATURE|ISSUES RAISED|ISSUES RESOLVED|
 |-----|-----|-----|-----|-----|
 |Pranshi Lodha|99003518|Integrator, Product definition and Addition|||
-|Mone Vennela|99003519|High Level Behavioural Diagram,nCr,nPr||
+|Mone Vennela|99003519|High Level Behavioural Diagram,nCr,nPr fuctions- Low level requirements,implementation,low level design and low level test plan|||
 |Sahil K|99003520|High level test plan, percentage, low level design for percentage, low level requirement for percentage ||
 |Malavika Rajesh|99003522,stepin105158|Research-Features,Exponential function- low level requirements,Implementation,low level design and low level Testplan|
 |Spoorthy C P|99003523,stepin105186|Cost and Age Reasearch,Subtraction,main file, Low level Test Plan,Design,Requirements||
