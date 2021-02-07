@@ -30,12 +30,12 @@ Test Plan for nPr and nCr operations As per formula we know the calculations for
 |Expected Input  | Expected Output|  Type of test |
 |-----|-----|-----|
  
-  7P3          |     210     |  Requirement based test  |
-  7C3          |     35      |  Requirement based test  |
-  4P0          |      1      |  Requirement based test  |
-  4C0          |      1      |  Requirement based test  |
-  6P6          |     720     |  Requirement based test  |
-  6C6          |      1      |  Requirement based test  |
+ | 7P3  | 210 |  Requirement based test  |
+ | 7C3  | 35  |  Requirement based test  |
+ | 4P0  |  1  |  Requirement based test  |
+ | 4C0  |  1  |  Requirement based test  |
+ | 6P6  | 720 |  Requirement based test  |
+ | 6C6  |  1  |  Requirement based test  |
   
   
   
