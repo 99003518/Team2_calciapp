@@ -39,7 +39,7 @@
                     break;
             case 5: exponential(b,e);
                     break;
-            case 6: Factorial(num);
+            case 6: factorial(num);
                     break;
             case 7: modulo(num1,num2);
                     break;
