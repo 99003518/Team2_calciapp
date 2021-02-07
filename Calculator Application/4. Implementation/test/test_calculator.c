@@ -57,9 +57,6 @@ int main() {
     return CU_get_error();
   CU_pSuite suite = CU_add_suite(PROJECT_NAME, 0, 0);
 /* Note: Do not edit END */
-  
-  
-  /* Add your test functions in this format for testing*/
   CU_add_test(suite, "add", test_add);
   CU_add_test(suite, "sub", test_sub);
   CU_add_test(suite, "multiplication", test_multiplication);
