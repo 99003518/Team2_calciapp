@@ -47,17 +47,46 @@ void test_ncr(void);
 void test_npr(void);
 void test_percentage(void);
 
-
-
-/* Start of the application test */
 int main() {
-/* Note: Do not edit START*/
-  /*Initialize and setup the Test Framework */
-  
+
   if (CUE_SUCCESS != CU_initialize_registry())
     return CU_get_error();
   CU_pSuite suite = CU_add_suite(PROJECT_NAME, 0, 0);
-/* Note: Do not edit END */
+  CU_add_test(suite, "add", test_add);
+  CU_add_test(suite, "sub", test_sub);
+  CU_add_test(suite, "multiplication", test_multiplication);
+  CU_add_test(suite, "division", test_division);
+  CU_add_test(suite, "exponential", test_exponential);
+  CU_add_test(suite, "factorial", test_factorial);
+  CU_add_test(suite, "modulo", test_modulo);
+  CU_add_test(suite, "kmtometer", test_kmtometer);
+  CU_add_test(suite, "inchtocentimeter", test_inchtocentimeter);
+  CU_add_test(suite, "ncr",test_ncr);
+  CU_add_test(suite, "npr",test_npr);
+  CU_add_test(suite, "percentage",test_percentage);
+
+
+
+  CU_basic_set_mode(CU_BRM_VERBOSE);
+
+
+  CU_basic_run_tests();
+
+
+  CU_cleanup_registry();
+
+  return 0;
+}
+
+/* Start of the application test */
+//int main() {
+/* Note: Do not edit START*/
+  /*Initialize and setup the Test Framework */
+  
+/*  if (CUE_SUCCESS != CU_initialize_registry())
+    return CU_get_error();
+  CU_pSuite suite = CU_add_suite(PROJECT_NAME, 0, 0);
+/* Note: Do not edit END 
   CU_add_test(suite, "add", test_add);
   CU_add_test(suite, "sub", test_sub);
   CU_add_test(suite, "multiplication", test_multiplication);
@@ -88,16 +117,16 @@ int main() {
 
 /* Note: Do not edit START*/
   /* Setup Test Framework to output the result to Screen */
-  CU_basic_set_mode(CU_BRM_VERBOSE);
+ // CU_basic_set_mode(CU_BRM_VERBOSE);
   
   /* run the unit test framework*/
-  CU_basic_run_tests();
+  //CU_basic_run_tests();
   
   /* Cleaning the Resources used by Unit test framework */
-  CU_cleanup_registry();
+//  CU_cleanup_registry();
 /* Note: Do not edit END */
-  return 0;
-}
+ // return 0;
+//}
 
 /* Write all the test functions */ 
 void test_add(void) {
