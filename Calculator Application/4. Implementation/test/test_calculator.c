@@ -53,6 +53,7 @@ void test_percentage(void);
 int main() {
 /* Note: Do not edit START*/
   /*Initialize and setup the Test Framework */
+  
   if (CUE_SUCCESS != CU_initialize_registry())
     return CU_get_error();
   CU_pSuite suite = CU_add_suite(PROJECT_NAME, 0, 0);
