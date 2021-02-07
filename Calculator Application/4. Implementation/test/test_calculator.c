@@ -1,11 +1,9 @@
-/*#include <CUnit/Basic.h>
+#include <CUnit/Basic.h>
 #include <CUnit/CUnit.h>
 
 #define PROJECT_NAME    "Calculator_Application"
 /* Modify these two lines according to the project */
 //#include <calculator_operations.h>
-#include "unity.h"
-
 #include<addition.h>
 #include<subtaction.h>
 #include<mul.h>
@@ -20,7 +18,8 @@
 #include<ncr.h>
 #include<npr.h>
 #include<percentage.h>
-#define PROJECT_NAME    "Calculator_Application"
+ 
+//#define PROJECT_NAME    "Calculator_Application"
 
 /* Prototypes for all the test functions */
 void test_add(void);
@@ -48,39 +47,7 @@ void test_ncr(void);
 void test_npr(void);
 void test_percentage(void);
 
-void setUp(){}
-/* Required by the unity test framework */
-void tearDown(){}
-
-/* Start of the application test */
-/*int test_main()
-{
-/* Initiate the Unity Test Framework 
-  UNITY_BEGIN();
-
-/* Run Test functions */
-  /*RUN_TEST(test_add);
-  RUN_TEST(test_sub);
-  RUN_TEST(test_multiplication);
-  RUN_TEST(test_division);
-  RUN_TEST(test_exponential);
-  RUN_TEST(test_factorial);
-  RUN_TEST(test_modulo);
-  RUN_TEST(test_kmtometer);
-  //RUN_TEST(test_inchto);
-  RUN_TEST(test_factorial);
-  RUN_TEST(test_modulo);
-  RUN_TEST(test_kmtometer);
-  RUN_TEST(test_inchtocentimeter);
-  RUN_TEST(test_ncr);
-  RUN_TEST(test_npr);
-  RUN_TEST(test_percentage);
-
-  /* Close the Unity Test Framework 
-  return UNITY_END();
-}*/
-
-/*int main() {
+int main() {
 
   if (CUE_SUCCESS != CU_initialize_registry())
     return CU_get_error();
@@ -163,47 +130,47 @@ void tearDown(){}
 
 /* Write all the test functions */ 
 void test_add(void) {
-  TEST_ASSERT_EQUAL(30, add(10, 20));
+  CU_ASSERT(30 == add(10, 20));
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(1500, add(750, 7500));
+  CU_ASSERT(1500 == add(750, 7500));
 }
 
 void test_sub(void) {
-  TEST_ASSERT_EQUAL(-3, sub(0, 3));
+  CU_ASSERT(-3 == sub(0, 3));
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(1, sub(1000, 900));
+  CU_ASSERT(1 == sub(1000, 900));
 }
 
 void test_multiplication(void) {
-  TEST_ASSERT_EQUAL(0, multiplication(1, 0));
-  TEST_ASSERT_EQUAL(4, multiplication(-2, -2));
-  TEST_ASSERT_EQUAL(-10, multiplication(-5, 2));
-  TEST_ASSERT_EQUAL(-200, multiplication(50, -4));
+  CU_ASSERT(0 == multiplication(1, 0));
+  CU_ASSERT(4 == multiplication(-2, -2));
+  CU_ASSERT(-10 == multiplication(-5, 2));
+  CU_ASSERT(-200 == multiplication(50, -4));
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(2, multiplication(2, 5));
+  CU_ASSERT(2 == multiplication(2, 5));
 }
 
 void test_division(void) {
-  TEST_ASSERT_EQUAL(2, division(10, 5));
+  CU_ASSERT(2 == division(10, 5));
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(3, division(2, 2));
+  CU_ASSERT(3 == division(2, 2));
 }
 
 void test_exponential(void){
   
-  TEST_ASSERT_EQUAL(100, exponential(10, 2));
-  TEST_ASSERT_EQUAL(0.5, exponential(2, -1));
-  TEST_ASSERT_EQUAL(1, exponential(6, 0));
+  CU_ASSERT(100 == exponential(10, 2));
+  CU_ASSERT(0.5 == exponential(2, -1));
+  CU_ASSERT(1 == exponential(6, 0));
 
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(3, exponential(2, 2));
+  CU_ASSERT(3 == exponential(2, 2));
   //CU_ASSERT(0.6 == exponential(3, -1);
-  TEST_ASSERT_EQUAL(10, exponential(10, 0));
+  CU_ASSERT(10 == exponential(10, 0));
 }
 
 /*void test_square(void) {
@@ -236,21 +203,21 @@ void test_greater(void) {
 }*/
 
 void test_factorial(void) {
-  TEST_ASSERT_EQUAL(1, factorial(0));
-  TEST_ASSERT_EQUAL(1, factorial(1));
-  TEST_ASSERT_EQUAL(6, factorial(3));
-  
+  CU_ASSERT(1 == factorial(0));
+  CU_ASSERT(1 == factorial(1));
+  CU_ASSERT(6 == factorial(3));
+  CU_ASSERT(40320 == factorial(8));
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(23, factorial(15));
-  TEST_ASSERT_EQUAL(23, factorial(100));
-  TEST_ASSERT_EQUAL(10, factorial(-3));
+  CU_ASSERT(23 == factorial(15));
+  CU_ASSERT(23 == factorial(100));
+  CU_ASSERT(10 == factorial(-3));
 }
 
 void test_modulo(void) {
-  TEST_ASSERT_EQUAL(5, modulo(105,10));
+  CU_ASSERT(5 == modulo(105,10));
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(5, modulo(25,5));
+  CU_ASSERT(5 == modulo(25,5));
 }
 
 /*void test_squareroot(void) {
@@ -297,10 +264,10 @@ void test_centitometer(void) {
 }*/
 
 void test_kmtometer(void) {
-  TEST_ASSERT_EQUAL(1000, kmtometer(1));
+  CU_ASSERT(1000 == kmtometer(1));
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(1, kmtometer(12));
+  CU_ASSERT(1 == kmtometer(12));
 }
 
 /*void test_metertokm(void) {
@@ -318,61 +285,33 @@ void test_centitoinch(void) {
 }*/
 
 void test_inchtocentimeter(void) {
-  TEST_ASSERT_EQUAL(254, inchtocentimeter(100));
+  CU_ASSERT(254 == inchtocentimeter(100));
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(1, inchtocentimeter(12));
+  CU_ASSERT(1 == inchtocentimeter(12));
 }
 void test_ncr(void) {
-  TEST_ASSERT_EQUAL(35, ncr(7,3));
-  TEST_ASSERT_EQUAL(10, ncr(5,2));
-  TEST_ASSERT_EQUAL(56, ncr(8,3));
-  TEST_ASSERT_EQUAL(252, ncr(10,5));
+  CU_ASSERT(35 == ncr(7,3));
+  CU_ASSERT(10 == ncr(5,2));
+  CU_ASSERT(56 == ncr(8,3));
+  CU_ASSERT(252 == ncr(10,5));
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(0, ncr(6,6));
+  CU_ASSERT(0 == ncr(6,6));
 }
 void test_npr(void) {
-  TEST_ASSERT_EQUAL(210, npr(7,3));
-  TEST_ASSERT_EQUAL(6720, npr(8,5));
-  TEST_ASSERT_EQUAL(12, npr(4,2));
-  TEST_ASSERT_EQUAL(1, npr(9,0));
+  CU_ASSERT(210 == npr(7,3));
+  CU_ASSERT(6720== npr(8,5));
+  CU_ASSERT(12 == npr(4,2));
+  CU_ASSERT(1 == npr(9,0));
   
   /* Dummy fail*/
-  TEST_ASSERT_EQUAL(0, npr(6,6));
+  CU_ASSERT(0 == npr(6,6));
 }
 
 void test_percentage(void) {
-  TEST_ASSERT_EQUAL(10, percentage(10 ,100));
+  CU_ASSERT(10 == percentage(10 ,100));
   
   /* Dummy fail*/
-   TEST_ASSERT_EQUAL(30, percentage(10 ,100));
-}
-
-
-int test_main()
-{
-/* Initiate the Unity Test Framework */
-  UNITY_BEGIN();
-
-/* Run Test functions */
-  RUN_TEST(test_add);
-  RUN_TEST(test_sub);
-  RUN_TEST(test_multiplication);
-  RUN_TEST(test_division);
-  RUN_TEST(test_exponential);
-  RUN_TEST(test_factorial);
-  RUN_TEST(test_modulo);
-  RUN_TEST(test_kmtometer);
-  //RUN_TEST(test_inchto);
-  RUN_TEST(test_factorial);
-  RUN_TEST(test_modulo);
-  RUN_TEST(test_kmtometer);
-  RUN_TEST(test_inchtocentimeter);
-  RUN_TEST(test_ncr);
-  RUN_TEST(test_npr);
-  RUN_TEST(test_percentage);
-
-  /* Close the Unity Test Framework */
-  return UNITY_END();
+   CU_ASSERT(30 == percentage(10 ,100));
 }
