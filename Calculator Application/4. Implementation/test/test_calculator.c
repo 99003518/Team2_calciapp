@@ -110,10 +110,10 @@ void test_add(void) {
 }
 
 void test_sub(void) {
-  CU_ASSERT(-3 == subtract(0, 3));
+  CU_ASSERT(-3 == sub(0, 3));
   
   /* Dummy fail*/
-  CU_ASSERT(1 == subtract(1000, 900));
+  CU_ASSERT(1 == sub(1000, 900));
 }
 
 void test_multiplication(void) {
@@ -127,10 +127,10 @@ void test_multiplication(void) {
 }
 
 void test_division(void) {
-  CU_ASSERT(2 == divide(10, 5));
+  CU_ASSERT(2 == division(10, 5));
   
   /* Dummy fail*/
-  CU_ASSERT(3 == divide(2, 2));
+  CU_ASSERT(3 == division(2, 2));
 }
 
 void test_exponential(void){
