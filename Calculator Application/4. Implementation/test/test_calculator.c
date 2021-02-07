@@ -176,13 +176,13 @@ void test_greater(void) {
 }*/
 
 void test_factorial(void) {
-  CU_ASSERT_EQUAL(1 == factorial(0));
-  CU_ASSERT_EQUAL(1 == factorial(1));
-  CU_ASSERT_EQUAL(6 == factorial(3));
-  CU_ASSERT_EQUAL(40320 == factorial(8));
+  CU_ASSERT(1 == factorial(0));
+  CU_ASSERT(1 == factorial(1));
+  CU_ASSERT(6 == factorial(3));
+  CU_ASSERT(40320 == factorial(8));
   /* Dummy fail*/
-  CU_ASSERT_EQUAL(23 == factorial(15));
-  CU_ASSERT_EQUAL(23 == factorial(100));
+  CU_ASSERT(23 == factorial(15));
+  CU_ASSERT(23 == factorial(100));
   CU_ASSERT(10 == factorial(-3));
 }
 
@@ -257,11 +257,11 @@ void test_centitoinch(void) {
   CU_ASSERT(1 == centitoinch(12));
 }*/
 
-void test_inchtocenti(void) {
-  CU_ASSERT(254 == inchtocenti(100));
+void test_inchtocentimeter(void) {
+  CU_ASSERT(254 == inchtocentimeter(100));
   
   /* Dummy fail*/
-  CU_ASSERT(1 == inchtocenti(12));
+  CU_ASSERT(1 == inchtocentimeter(12));
 }
 void test_ncr(void) {
   CU_ASSERT(35 == ncr(7,3));
