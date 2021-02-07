@@ -2,7 +2,22 @@
 #include <CUnit/CUnit.h>
 
 /* Modify these two lines according to the project */
-#include <calculator_operations.h>
+//#include <calculator_operations.h>
+#include<addition.h>
+#include<subtaction.h>
+#include<mul.h>
+#include<division.h>
+#include<expo.h>
+#include<factorial.h>
+#include<bitoperations.h>
+#include<hectaretoacre.h>
+#include<inchtocentimeter.h>
+#include<kmtometer.h>
+#include<modulo.h>
+#include<ncr.h>
+#include<npr.h>
+#include<percentage.h>
+ 
 #define PROJECT_NAME    "Calculator_Application"
 
 /* Prototypes for all the test functions */
