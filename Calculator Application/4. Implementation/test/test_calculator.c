@@ -5,6 +5,7 @@
 /* Modify these two lines according to the project */
 //#include <calculator_operations.h>
 #include "unity.h"
+
 #include<addition.h>
 #include<subtaction.h>
 #include<mul.h>
@@ -52,7 +53,7 @@ void setUp(){}
 void tearDown(){}
 
 /* Start of the application test */
-int main()
+int test_main()
 {
 /* Initiate the Unity Test Framework */
   UNITY_BEGIN();
