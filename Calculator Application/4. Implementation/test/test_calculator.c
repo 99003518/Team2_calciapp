@@ -1,6 +1,7 @@
 #include <CUnit/Basic.h>
 #include <CUnit/CUnit.h>
 
+#define PROJECT_NAME    "Calculator_Application"
 /* Modify these two lines according to the project */
 //#include <calculator_operations.h>
 #include<addition.h>
@@ -18,7 +19,7 @@
 #include<npr.h>
 #include<percentage.h>
  
-#define PROJECT_NAME    "Calculator_Application"
+//#define PROJECT_NAME    "Calculator_Application"
 
 /* Prototypes for all the test functions */
 void test_add(void);
