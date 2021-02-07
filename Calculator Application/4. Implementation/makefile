@@ -1,8 +1,8 @@
-PROJECT_NAME = Calculator_Application
+PROJECT_NAME	=	Calculator_Application
 
-BUILD = build
+BUILD	=	build
 
-SRC = main.c\
+SRC	=	main.c\
 src/addition.c\
 src/bit.c\
 src/division.c\
@@ -18,7 +18,7 @@ src/npr.c\
 src/percentage.c\
 src/subtraction.c\
 
-TEST_SRC = test/test_calculator.c\
+TEST_SRC	=	test/test_calculator.c\
 src/addition.c\
 src/bit.c\
 src/division.c\
@@ -35,14 +35,14 @@ src/percentage.c\
 src/subtraction.c\
 unity/unity.c\
 
-TEST_OUTPUT = $(BUILD)/Test_$(PROJECT_NAME).out
+TEST_OUTPUT	=	$(BUILD)/Test_$(PROJECT_NAME).out
 
 INC	=	-Iinc\
--Iunity
+	-Iunity
 
-PROJECT_OUTPUT = $(BUILD)/$(PROJECT_NAME).out
+PROJECT_OUTPUT	=	$(BUILD)/$(PROJECT_NAME).out
 
-DOCUMENTATION_OUTPUT = documentation/html
+DOCUMENTATION_OUTPUT	=	documentation/html
 
 $(PROJECT_NAME):all
 
