@@ -38,7 +38,7 @@ test/test_calculator.c\
 TEST_OUTPUT	=	$(BUILD)/Test_$(PROJECT_NAME).out
 
 INC	=	-Iinc\
--Iunity
+
 
 PROJECT_OUTPUT	=	$(BUILD)/$(PROJECT_NAME).out
 
