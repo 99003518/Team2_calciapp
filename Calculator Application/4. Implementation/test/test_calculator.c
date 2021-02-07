@@ -53,13 +53,13 @@ void setUp(){}
 void tearDown(){}
 
 /* Start of the application test */
-int test_main()
+/*int test_main()
 {
-/* Initiate the Unity Test Framework */
+/* Initiate the Unity Test Framework 
   UNITY_BEGIN();
 
 /* Run Test functions */
-  RUN_TEST(test_add);
+  /*RUN_TEST(test_add);
   RUN_TEST(test_sub);
   RUN_TEST(test_multiplication);
   RUN_TEST(test_division);
@@ -76,9 +76,9 @@ int test_main()
   RUN_TEST(test_npr);
   RUN_TEST(test_percentage);
 
-  /* Close the Unity Test Framework */
+  /* Close the Unity Test Framework 
   return UNITY_END();
-}
+}*/
 
 /*int main() {
 
@@ -347,4 +347,32 @@ void test_percentage(void) {
   
   /* Dummy fail*/
    TEST_ASSERT_EQUAL(30, percentage(10 ,100));
+}
+
+
+int test_main()
+{
+/* Initiate the Unity Test Framework */
+  UNITY_BEGIN();
+
+/* Run Test functions */
+  RUN_TEST(test_add);
+  RUN_TEST(test_sub);
+  RUN_TEST(test_multiplication);
+  RUN_TEST(test_division);
+  RUN_TEST(test_exponential);
+  RUN_TEST(test_factorial);
+  RUN_TEST(test_modulo);
+  RUN_TEST(test_kmtometer);
+  //RUN_TEST(test_inchto);
+  RUN_TEST(test_factorial);
+  RUN_TEST(test_modulo);
+  RUN_TEST(test_kmtometer);
+  RUN_TEST(test_inchtocentimeter);
+  RUN_TEST(test_ncr);
+  RUN_TEST(test_npr);
+  RUN_TEST(test_percentage);
+
+  /* Close the Unity Test Framework */
+  return UNITY_END();
 }
