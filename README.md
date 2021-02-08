@@ -35,3 +35,7 @@
 |Sneha Anand|99003525|7|7|0|0|
 |Doppalapudi Sri Naga Anjaneya|99003527|11|11|0|0|
 |E NagasaiKomali|99003528|7|7|0|0|
+
+![progress](https://github.com/99003518/Team2_calciapp/blob/main/Screenshot%20from%202021-02-08%2008-51-16.png)
+![progress2](https://github.com/99003518/Team2_calciapp/blob/main/Screenshot%20from%202021-02-08%2008-51-21.png)
+![progress3](https://github.com/99003518/Team2_calciapp/blob/main/Screenshot%20from%202021-02-08%2008-51-25.png)
