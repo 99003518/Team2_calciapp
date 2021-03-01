@@ -9,7 +9,14 @@ int fac(int num)
 int ncr(int n, int r)
 {
     int res;
-    res= fac(n)/(fac(n-r)*fac(r));
-    printf("\n The value of c(%d,%d) is:%d",n,r,res);
+    if(n<0 || r<0)
+    {
+        printf("\n Can't be calculated for negative integers");
+    }
+    else
+    {
+        res= fac(n)/(fac(n-r)*fac(r));
+        printf("\n The value of c(%d,%d) is:%d",n,r,res);
+    }
     return 0;
 }
