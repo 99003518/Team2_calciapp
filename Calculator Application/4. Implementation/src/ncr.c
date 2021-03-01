@@ -2,9 +2,20 @@
 #include<stdio.h>
 int fac(int num)
 {
-    if (num <= 1) 
-        return 1; 
-    return num*fac(num-1); 
+    if (num == 1 || num == 0) 
+    {
+        return 1;
+    }
+    else if(num < 0)
+    {
+        printf("Error factorial cannot be calculated for negative integers");
+    }
+    else
+    {
+        return num*fac(num-1);
+     }
+         
+    
 }
 int ncr(int n, int r)
 {

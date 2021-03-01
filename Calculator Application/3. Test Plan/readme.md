@@ -1,20 +1,20 @@
 # High Level Test Plan
-| ID | Description | Sample input | Expected output |
-| --- | --- | --- | --- |
-| TP\_HL\_01 | Addition operation | 4+8 | 12 |
-| TP\_HL\_02 | Subtraction operation | 12-3 | 9 |
-| TP\_HL\_03 | Multiplication operation | 5\*5 | 25 |
-| TP\_HL\_04 | Division operation | 60/3 | 20 |
-| TP\_HL\_05 | Exponential | 2^5 | 32 |
-| TP\_HL\_06 | Factorial of a number | 5! | 120 |
-| TP\_HL\_07 | Modulo | 4%2 | 0 |
-| TP\_HL\_08 | Percentage | 50%100 | 50 |
-| TP\_HL\_09 | Permutation | 5P2 | 20 |
-| TP\_HL\_10 | Combination | 5C2 | 10 |
-| TP\_HL\_11 | Trigonometric | Sin(90) | 1 |
-| TP\_HL\_12 | Km to m | 2 | 2000 |
-| TP\_HL\_13 | Hectare to acres | 1 | 2.47 |
-| TP\_HL\_14 | Inch to cm | 1 | 2.54 |
+| ID | Description | Sample input | Expected output | Type of test|
+| --- | --- | --- | --- | --- |
+| TP\_HL\_01 | Addition operation | 4+8 | 12 | Requirement based test|
+| TP\_HL\_02 | Subtraction operation | 12-3 | 9 | Requirement based test|
+| TP\_HL\_03 | Multiplication operation | 5\*5 | 25 | Requirement based test|
+| TP\_HL\_04 | Division operation | 60/3 | 20 | Requirement based test|
+| TP\_HL\_05 | Exponential | 2^5 | 32 | Requirement based test|
+| TP\_HL\_06 | Factorial of a number | 5! | 120 | Requirement based test|
+| TP\_HL\_07 | Modulo | 4%2 | 0 | Requirement based test|
+| TP\_HL\_08 | Percentage | 50%100 | 50 | Requirement based test|
+| TP\_HL\_09 | Permutation | 5P2 | 20 | Requirement based test|
+| TP\_HL\_10 | Combination | 5C2 | 10 | Requirement based test|
+| TP\_HL\_11 | Hectare to acres | 1 | 2.47 | Requirement based test|
+| TP\_HL\_12 | Inch to cm | 1 | 2.54 | Requirement based test|
+| TP\_HL\_13 | Km to m | 2 | 2000 | Requirement based test|
+| TP\_HL\_14 | Bit operation | 1&0 | 0 | Requirement based test|
 # LOW LEVEL TEST PLAN
 #### TEST PLAN (FACTORIAL)
 | ID |Description | Expected input or state | Expected output or State |Type of test|
