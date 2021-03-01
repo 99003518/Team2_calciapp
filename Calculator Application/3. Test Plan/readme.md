@@ -82,10 +82,10 @@ Test Plan for nPr and nCr operations As per formula we know the calculations for
 
 
 #### Test plan for Division
-| Description            | Precondition | Expected i/p | Excepted o/p    |
-|------------------------|--------------|--------------|-----------------|
-| div of two no          | user i/p     | 4,2          | 0               |
-| div of two negative no | user i/p     | -4,-2        | not correct i/p |
+| Description            | Precondition | Expected i/p | Excepted o/p (Quotient,Remainder)  |
+|------------------------|--------------|--------------|------------------------------------|
+| div of two no          | user i/p     | 4,2          | 2,0                                |
+| div of two no(if no==0) |   user i/p  | 6,0          |  |
 
 Test plan for Bit Opertions:
  Description                 | Precondition | Expected i/p | Expected o/p |
