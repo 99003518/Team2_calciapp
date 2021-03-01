@@ -19,9 +19,9 @@
     int n,operation,a,b,e,num1,num2,r,n1,n2,num,operand1,operand2;
     printf("Welcome to Solid State Calculator");
     printf("Which operation you want to perform?");
-    printf("1.Addition\n 2.Subtraction\n 3.Division\n 4.Multiplication\n 5.Exponential\n 6.Factorial\n 7.Modulo\n 8.Percentage\n 9.Permutation and Combination\n 10.Trigonometric functions\n 11.Conversions\n 12.Bitwise operations\n");
+    printf("1.Addition\n 2.Subtraction\n 3.Division\n 4.Multiplication\n 5.Exponential\n 6.Factorial\n 7.Modulo\n 8.Percentage\n 9.Permutation\n 10.Combination\n 11.Hectare to acre\n 12.Inch to centimeter\n 13.Kilometer to meter\n 14. Bitoperations\n");
     scanf("%d",&n);
-    if(n<13 && n>0)
+    if(n<15 && n>0)
     {
         scanf("%d",&operation);
         switch(n)
