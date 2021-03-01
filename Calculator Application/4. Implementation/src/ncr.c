@@ -19,4 +19,6 @@ int ncr(int n, int r)
         printf("\n The value of c(%d,%d) is:%d",n,r,res);
     }
     return 0;
+    
 }
+
