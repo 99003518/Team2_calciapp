@@ -9,8 +9,9 @@ int fact(int num)
 int npr(int n, int r)
 {
     int res;
-    if((n<0)||(r<0))
+    if(n<0 || r<0)
     {
+        printf("\n error");
         printf("\n Can't be calculated for negative integers");
     }
     else
