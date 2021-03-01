@@ -23,6 +23,10 @@ float percentage(float operand1,float operand2)
     }
     /*The number entered should be greater than 0 else error will be displayed in calculator*/
     /*When if-else condition fails then else statement will be executed*/
+    else if(operand1 < 0 || operand2 < 0)
+    {
+        printf("Error percentage of negative number does not exist");
+    }
     else
     {
 
