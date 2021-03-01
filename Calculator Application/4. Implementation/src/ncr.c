@@ -1,8 +1,8 @@
 #include <ncr.h>
 #include<stdio.h>
-int fac(int num)
+int fac(int num)                     //Returns factorial of num
 {
-    if (num == 1 || num == 0) 
+    if (num == 1 || num == 0)        
     {
         return 1;
     }
@@ -17,7 +17,7 @@ int fac(int num)
          
     
 }
-int ncr(int n, int r)
+int ncr(int n, int r)           //Return ncr value
 {
     int res;
     if(n<0 || r<0)
