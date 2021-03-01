@@ -22,5 +22,6 @@ int division(int n3,int n4) {
     else
     {
         printf("Error");
+    }
     
 }
