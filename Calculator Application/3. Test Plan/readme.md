@@ -81,15 +81,17 @@ Test Plan for nPr and nCr operations As per formula we know the calculations for
 
 #### TEST PLAN (MULTIPLICATION)
 
-| **Test Id** | **Description** | **Expected input** | **Expected Output** || Description            | Precondition | Expected i/p | Excepted o/p    |
-|------------------------|--------------|--------------|-----------------|
-| div of two no          | user i/p     | 4,2          | 0               |
-| div of two negative no | user i/p     | -4,-2        | not correct i/p |
+| **Test Id** | **Description** | **Expected input** | **Expected Output** |
 | --- | --- | --- | --- |
-| T\_01\_LL\_04\_HL\_02 | Checking the product of two positive numbers. | Numbers a &amp; bgreater than zero | Product greater than zero |
-| T\_02\_LL\_04\_HL\_02 | Checking the product of two negative numbers. | Numbers a &amp; b less than zero | Product greater than zero |
-| T\_03\_LL\_04\_HL\_02 | Checking the product of one positive and one negative number | Number a less than zero &amp; number b greater than zero | Product less than zero |
-| T\_04\_LL\_04\_HL\_02 | Checking the product of one positive and one negative number | Number a greater than zero &amp; number b less than zero | Product less than zero |
+|
+T\_01\_LL\_04\_HL\_02 | Checking the product of two positive numbers. | Numbers a &amp; bgreater than zero | Product greater than zero |
+|
+T\_02\_LL\_04\_HL\_02 | Checking the product of two negative numbers. | Numbers a &amp; b less than zero | Product greater than zero |
+|
+T\_03\_LL\_04\_HL\_02 | Checking the product of one positive and one negative number | Number a less than zero &amp; number b greater than zero | Product less than zero |
+|
+T\_04\_LL\_04\_HL\_02 | Checking the product of one positive and one negative number | Number a greater than zero &amp; number b less than zero | Product less than zero |
+
 #### Test plan for Division
 | Description            | Precondition | Expected i/p | Excepted o/p    |
 |------------------------|--------------|--------------|-----------------|
