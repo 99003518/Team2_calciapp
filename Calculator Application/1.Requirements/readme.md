@@ -217,17 +217,18 @@ Operator|Calculation|Comment|
 
 **Low Level Requirements for nPr and nCr functions in calculator**
 nPr:
-The whole or a part of the set of objects are arranged in a manner considering the order of management is termed as Permutations. They are generally described as distinct objects taken in a specific time. Here is the Permutation Formula| REQ\_ID | DESCRIPTION |
+The whole or a part of the set of objects are arranged in a manner considering the order of management is termed as Permutations. They are generally described as distinct objects taken in a specific time. Here is the Permutation Formula
+| REQ\_ID | DESCRIPTION |
 | --- | --- |
 | LL\_04\_HL\_02(i) | Check for valid input |
 | LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
 | LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
-|
 
- |
- |
 
-#| REQ\_ID | DESCRIPTION |
+
+
+
+| REQ\_ID | DESCRIPTION |
 | --- | --- |
 | LL\_04\_HL\_02(i) | Check for valid input |
 | LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
