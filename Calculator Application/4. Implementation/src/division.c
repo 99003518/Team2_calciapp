@@ -7,7 +7,9 @@ int division(int n3,int n4) {
     scanf("%d", &n1);
     printf("Enter n2: ");
     scanf("%d", &n2);
-
+    
+    if((n1>=0)&&(n2>=1))
+    {
     // Computes quotient
     quotient = n1 / n2;
 
@@ -16,5 +18,9 @@ int division(int n3,int n4) {
 
     printf("Quotient = %d\n", quotient);
     printf("Remainder = %d", remainder);
+    }
+    else
+    {
+        printf("Error")0
     
 }
