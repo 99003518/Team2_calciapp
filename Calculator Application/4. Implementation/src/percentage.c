@@ -11,13 +11,13 @@ float percentage(float operand1,float operand2)
     scanf("%f %f", &operand1,&operand2);
     /*Read the 2 numbers entered */
     /*Use if-else statements*/
-    if(operand1==0)
+    if(operand1<=0)
     {
         printf("The number entered should be greater than 0");
     }
       /*The number entered should be greater than 0 else error will be displayed in calculator*/
     /*When if condition fails then the compiler checks if else statement*/
-    else if(operand2==0)
+    else if(operand2<=0)
     {
         printf("The number entered should be greater than 0");
     }
