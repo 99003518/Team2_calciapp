@@ -50,7 +50,7 @@ Test Plan for nPr and nCr operations As per formula we know the calculations for
 | T\_02\_LL\_05\_HL\_02 | To check the output when the exponent is negative | Number x is greater than zero and y is less than zero | Output is less than one | Requirement based test |
 | T\_03\_LL\_05\_HL\_02 | To check the output when the exponent is zero | Number x is greater than zero and y is equal to zero | Output is equal to one | Requirement based test |
 
-**Test Plan for Modulo Division & Distance Conversion:**
+#### Test Plan for Modulo Division & Distance Conversion
 
 | Description                            | Precondition |  I/p    | Expected o/p  |
 |----------------------------------------|--------------|---------|---------------|
