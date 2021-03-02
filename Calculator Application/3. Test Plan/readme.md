@@ -123,6 +123,10 @@ Test plan for Bit Opertions:
 
 ### SCOPE OF TESTING
 The scope of a test defines what areas of a customer's product are supposed to get tested, what functionalities to focus on, what bug types the customer is interested in, and what areas or features should not be tested by any means. If something is in scope, please test it; if something is out of scope, it should not be tested. 
+1. Memory Management cannot be introduced in this device.
+2. Multiple inputs are not supposed to be given.
+3. Complex numbers are not supported.
+
 
 
 
