@@ -144,6 +144,15 @@ HL_02	|Arithmetic Functions and operations must be included|
 
 ## LOW LEVEL REQUIREMENTS
 
+###### LL_01_TP : ADDITION
+| ID | DESCRIPTION |
+| ------ | ------ |
+| ( i )| Check for valid input|
+| ( ii )| Perform addition operation|
+| ( iii )| The calculator has to produce the expected result as defined by the provided arithmetic rules  |
+|  ( iv)| The expected output must be displayed in user readable format |
+
+
 ###### LL_02_TP : SUBTRACTION
 | ID | DESCRIPTION |
 | ------ | ------ |
