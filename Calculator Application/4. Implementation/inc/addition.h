@@ -7,7 +7,7 @@
 
 
 int add(int operand1, int operand2);
-int addOvf(int* result, int a, int b)
+int addOvf(int* result, int a, int b);
 
 
 #endif  
