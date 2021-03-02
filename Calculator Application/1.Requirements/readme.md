@@ -70,8 +70,8 @@ Percentage means per one hundred, for example 45% represents 45 out of 100 or 45
 
 -In 1986, calculators still represented an estimated 41% of the world's general-purpose hardware capacity to compute information. By 2007, this had diminished to less than 0.05%
 
-
 ### 1(B). FUNCTIONS THAT CAN PERFORMED FROM THE DEVICE:
+
 	MC or CM 	Memory Clear
 	MR, RM, or MRC 	Memory Recall
 	M− 	Memory Subtraction
