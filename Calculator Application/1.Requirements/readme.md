@@ -53,7 +53,7 @@ SR NO. | PROS | CONS
 ## PRODUCT DEFINATION
    (SOLID STATE CALCULATOR)
 
-### 1(A). OLD FEATURES OF THE DEVICE:
+### 1(A). OLD FEATURES OF THE DEVICE
 -An electronic calculator is typically a portable electronic device used to perform calculations, ranging from basic arithmetic to complex mathematics.
 Detailed requirements
 Low level – percentage
@@ -70,7 +70,7 @@ Percentage means per one hundred, for example 45% represents 45 out of 100 or 45
 
 -In 1986, calculators still represented an estimated 41% of the world's general-purpose hardware capacity to compute information. By 2007, this had diminished to less than 0.05%
 
-### 1(B). FUNCTIONS THAT CAN PERFORMED FROM THE DEVICE:
+### 1(B). FUNCTIONS THAT CAN PERFORMED FROM THE DEVICE
 
 	MC or CM 	Memory Clear
 	MR, RM, or MRC 	Memory Recall
@@ -88,7 +88,7 @@ Percentage means per one hundred, for example 45% represents 45 out of 100 or 45
 	√ 	Square root
 	= 	Result
 
-### 1(C). FUNCTIONS THAT WE WILL INCLUDE IN OUR DEVICE:
+### 1(C). FUNCTIONS THAT WE WILL INCLUDE IN OUR DEVICE
 	% 				Percent
 	÷ 				Division
 	× 				Multiplication
@@ -105,37 +105,37 @@ Percentage means per one hundred, for example 45% represents 45 out of 100 or 45
 	[]				modulo
 	||				bitwise operators43.18
 	
-### 1(D). TARGET AUDIENCE:
+### 1(D). TARGET AUDIENCE
 	Our target audience are students specifically engineering students, CA's, professionals and any other individual who would require to perform such operations at a single stop.
 ![](https://github.com/enskomali/pccalci/blob/main/Requirements/WhatsApp%20Image%202021-02-05%20at%201.00.35%20PM.jpeg)
 
 ## 4W-1H
 
-### What?
+### What
 
 A calculator is a small hand-held computer that performs mathematical operations. Some calculators even permit simple text editing and programming.
 
-### When?
+### When
 
 Usually people use calculators in everyday life to save their time and to get accurate answers while doing calculations.
 
-### Where?
+### Where
 
 Many times, in scientific and mathematical calculations involving complex operations with complicated numbers, the calculations are not feasible because it will take a lot of time and there are many chances of getting errors when done manually.
 
-### Why?
+### Why
 
 To make calculations easier.
 
-### How?
+### How
 
 The memory chips inside the calculator contain thousands or millions of bytes program code that allows the calculator to do work.
 
-### Valid inputs for our device are: 
+### Valid inputs for our device are
 It can take upto 2 inputs at a time.
 
 Description
-## HIGH LEVEL REQUIREMENTS:
+## HIGH LEVEL REQUIREMENTS
 |ID |	DESCRIPTION |
 |-----|-----|
 HL_01	|Check for valid inputs|
@@ -195,7 +195,7 @@ HL_02	|Arithmetic Functions and operations must be included|
 
 
 
-**Low Level Requirements for Modulo Division Function**:
+**Low Level Requirements for Modulo Division Function**
 
 | operator     | Calculation | Comment                                                                                                                                                                                                 |
 |--------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
