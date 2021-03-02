@@ -131,6 +131,9 @@ To make calculations easier.
 
 The memory chips inside the calculator contain thousands or millions of bytes program code that allows the calculator to do work.
 
+### Valid inputs for our device are: 
+It can take upto 2 inputs at a time.
+
 Description
 ## HIGH LEVEL REQUIREMENTS:
 |ID |	DESCRIPTION |
@@ -283,6 +286,10 @@ Formula:
 | LL\_05\_HL\_02(i) | Check for valid input |
 | LL\_05\_HL\_02(ii) | Perform exponential operation |
 | LL\_05\_HL\_02(iii) | This operation has to produce the expected results as per arithmetic rules |
+
+
+### Procedure to be followed if multiple functions are selected together:
+The operation that is selected at the first would be performed in the first place.
 
  
 
