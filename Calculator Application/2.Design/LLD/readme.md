@@ -1,18 +1,18 @@
 # LOW LEVEL DESIGN
 
-#### structural_addition
+## structural_addition
 ![add_strct](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/LL_01_structural.png)
 
-#### behavioural_addition
+### behavioural_addition
 ![add_behav](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/LL_01%20behaviour.png)
 
-#### behavioral_subtraction
+##### behavioral_subtraction
 ![sub_struct](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/LL_02%20behavioral.png)
 
-#### structural_subtraction
+###### structural_subtraction
 ![sub_struct](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/LL_02%20structural(subtraction).png)
 
-#### structural_factorial
+###### structural_factorial
 ![fact_struct](https://github.com/99003518/Team2_calciapp/blob/main/Calculator%20Application/2.Design/LLD/LL_06_Structural.png)
 
 #### behavioural_factorial
