@@ -144,7 +144,6 @@ HL_02	|Arithmetic Functions and operations must be included|
 |HL_04	|Check for proper expression|
 |HL_05	|Symbols for perform the required mathematical operations must be included|
 
-
 ## LOW LEVEL REQUIREMENTS
 
 ###### LL_01_TP : ADDITION
@@ -154,7 +153,6 @@ HL_02	|Arithmetic Functions and operations must be included|
 | ( ii )| Perform addition operation|
 | ( iii )| The calculator has to produce the expected result as defined by the provided arithmetic rules  |
 |  ( iv)| The expected output must be displayed in user readable format |
-
 
 ###### LL_02_TP : SUBTRACTION
 | ID | DESCRIPTION |
@@ -193,8 +191,6 @@ HL_02	|Arithmetic Functions and operations must be included|
 
 #error message to alert the user .|
 
-
-
 **Low Level Requirements for Modulo Division Function**
 
 | operator     | Calculation | Comment                                                                                                                                                                                                 |
@@ -208,8 +204,6 @@ HL_02	|Arithmetic Functions and operations must be included|
 | LL_01  | Kilometers to meters | The length in kilometers is equal to the meters multiplied by 1,000.                                      |
 | LL_02  | Hectare to Acres     | To convert from hectares to acres, multiply your figure by 2.4710538146717 (or divide by 0.40468564224) . |
 | LL_03  | Inch to Centimeters  | To convert inches to the centimeter values, multiply the given inch value by 2.54 cm.                     |
-
-
 
 **Low Level Requirements for percentage:**| REQ\_ID | DESCRIPTION |
 | --- | --- |
@@ -235,10 +229,6 @@ The whole or a part of the set of objects are arranged in a manner considering t
 | LL\_04\_HL\_02(i) | Check for valid input |
 | LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
 | LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
-
-
-
-
 
 | REQ\_ID | DESCRIPTION |
 | --- | --- |
@@ -276,9 +266,6 @@ Formula:
 | LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
 | LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
 
-
- 
-
 # EXPONENTIAL
 
 | REQ\_ID | DESCRIPTION |
@@ -286,7 +273,6 @@ Formula:
 | LL\_05\_HL\_02(i) | Check for valid input |
 | LL\_05\_HL\_02(ii) | Perform exponential operation |
 | LL\_05\_HL\_02(iii) | This operation has to produce the expected results as per arithmetic rules |
-
 
 ### Procedure to be followed if multiple functions are selected together:
 The operation that is selected at the first would be performed in the first place.
