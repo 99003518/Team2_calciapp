@@ -131,6 +131,9 @@ int main() {
 /* Write all the test functions */ 
 void test_add(void) {
   CU_ASSERT(30 == add(10, 20));
+  CU_ASSERT(-30 == add(-10, -20));
+  CU_ASSERT(0 == add(10, -10));
+  CU_ASSERT(-10 == add(10, -20));
   
   /* Dummy fail*/
   CU_ASSERT(1500 == add(750, 7500));
