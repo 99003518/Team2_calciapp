@@ -1,20 +1,20 @@
 # High Level Test Plan
-| ID | Description | Sample input | Expected output | Type of test|
-| --- | --- | --- | --- | --- |
-| TP\_HL\_01 | Addition operation | 4+8 | 12 | Requirement based test|
-| TP\_HL\_02 | Subtraction operation | 12-3 | 9 | Requirement based test|
-| TP\_HL\_03 | Multiplication operation | 5\*5 | 25 | Requirement based test|
-| TP\_HL\_04 | Division operation | 60/3 | 20 | Requirement based test|
-| TP\_HL\_05 | Exponential | 2^5 | 32 | Requirement based test|
-| TP\_HL\_06 | Factorial of a number | 5! | 120 | Requirement based test|
-| TP\_HL\_07 | Modulo | 4%2 | 0 | Requirement based test|
-| TP\_HL\_08 | Percentage | 50%100 | 50 | Requirement based test|
-| TP\_HL\_09 | Permutation | 5P2 | 20 | Requirement based test|
-| TP\_HL\_10 | Combination | 5C2 | 10 | Requirement based test|
-| TP\_HL\_11 | Hectare to acres | 1 | 2.47 | Requirement based test|
-| TP\_HL\_12 | Inch to cm | 1 | 2.54 | Requirement based test|
-| TP\_HL\_13 | Km to m | 2 | 2000 | Requirement based test|
-| TP\_HL\_14 | Bit operation | 1&0 | 0 | Requirement based test|
+| ID | Description | Sample input | Expected output | Type of test| Sub Test Type | Usability |
+| --- | --- | --- | --- | --- |--- | --- |
+| TP\_HL\_01 | Addition operation | 4+8 | 12 | Requirement based test|Positive,Negative,MC/DC | No |
+| TP\_HL\_02 | Subtraction operation | 12-3 | 9 | Requirement based test| Positive,Negative,MC/DC | No |
+| TP\_HL\_03 | Multiplication operation | 5\*5 | 25 | Requirement based test| Positive,Negative,MC/DC | No |
+| TP\_HL\_04 | Division operation | 60/3 | 20 | Requirement based test| Positive,Negative,MC/DC | No |
+| TP\_HL\_05 | Exponential | 2^5 | 32 | Requirement based test| Positive,Negative,MC/DC | No |
+| TP\_HL\_06 | Factorial of a number | 5! | 120 | Requirement based test| Positive,Negative,MC/DC | No |
+| TP\_HL\_07 | Modulo | 4%2 | 0 | Requirement based test| Positive,Negative,MC/DC | No |
+| TP\_HL\_08 | Percentage | 50%100 | 50 | Requirement based test|Positive,Negative,MC/DC | No |
+| TP\_HL\_09 | Permutation | 5P2 | 20 | Requirement based test|Positive,Negative,MC/DC | No |
+| TP\_HL\_10 | Combination | 5C2 | 10 | Requirement based test|Positive,Negative,MC/DC | No |
+| TP\_HL\_11 | Hectare to acres | 1 | 2.47 | Requirement based test|Positive,Negative,MC/DC | No |
+| TP\_HL\_12 | Inch to cm | 1 | 2.54 | Requirement based test|Positive,Negative,MC/DC | No |
+| TP\_HL\_13 | Km to m | 2 | 2000 | Requirement based test|Positive,Negative,MC/DC | No |
+| TP\_HL\_14 | Bit operation | 1&0 | 0 | Requirement based test|Positive,Negative,MC/DC | No |
 
 ## LOW LEVEL TEST PLAN
 
@@ -44,11 +44,11 @@ Test Plan for nPr and nCr operations As per formula we know the calculations for
 #### TEST PLAN(EXPONENTIAL)  
   LL_05 TEST PLAN 
 
-| TEST\_ID | DESCRIPTION | EXPECTED INPUT | EXPECTED OUTPUT | TYPE OF TEST |
-| --- | --- | --- | --- | --- |
-| T\_01\_LL\_05\_HL\_02 | To check the output when the exponent is positive | Numbers x and y greater than one | Output is greater than one |Requirement based test |
-| T\_02\_LL\_05\_HL\_02 | To check the output when the exponent is negative | Number x is greater than zero and y is less than zero | Output is less than one | Requirement based test |
-| T\_03\_LL\_05\_HL\_02 | To check the output when the exponent is zero | Number x is greater than zero and y is equal to zero | Output is equal to one | Requirement based test |
+| TEST\_ID | DESCRIPTION | EXPECTED INPUT | EXPECTED OUTPUT | TYPE OF TEST | Sub Test Type | Usability |
+| --- | --- | --- | --- | --- | --- | --- |
+| T\_01\_LL\_05\_HL\_02 | To check the output when the exponent is positive | Numbers x and y greater than one | Output is greater than one |Requirement based test | Positive,Negative,MC/DC | No |
+| T\_02\_LL\_05\_HL\_02 | To check the output when the exponent is negative | Number x is greater than zero and y is less than zero | Output is less than one | Requirement based test | Positive,Negative,MC/DC | No |
+| T\_03\_LL\_05\_HL\_02 | To check the output when the exponent is zero | Number x is greater than zero and y is equal to zero | Output is equal to one | Requirement based test | Positive,Negative,MC/DC | No |
 
 #### Test Plan for Modulo Division & Distance Conversion
 
@@ -94,23 +94,23 @@ Test plan for Bit Opertions:
 
 ### Test Plan for Multiplication
 
-| **Test Id** | **Description** | **Expected input** | **Expected Output** |
-| --- | --- | --- | --- |
-| T\_01\_LL\_04\_HL\_02 | Checking the product of two positive numbers. | Numbers a &amp; bgreater than zero | Product greater than zero |
-| T\_02\_LL\_04\_HL\_02 | Checking the product of two negative numbers. | Numbers a &amp; b less than zero | Product greater than zero |
-| T\_03\_LL\_04\_HL\_02 | Checking the product of one positive and one negative number | Number a less than zero &amp; number b greater than zero | Product less than zero |
-| T\_04\_LL\_04\_HL\_02 | Checking the product of one positive and one negative number | Number a greater than zero &amp; number b less than zero | Product less than zero |
+| **Test Id** | **Description** | **Expected input** | **Expected Output** | **Sub Test Type** | **Usability** |
+| --- | --- | --- | --- | --- | --- |
+| T\_01\_LL\_04\_HL\_02 | Checking the product of two positive numbers. | Numbers a &amp; bgreater than zero | Product greater than zero | Positive,Negative,MC/DC | No |
+| T\_02\_LL\_04\_HL\_02 | Checking the product of two negative numbers. | Numbers a &amp; b less than zero | Product greater than zero | Positive,Negative,MC/DC | No |
+| T\_03\_LL\_04\_HL\_02 | Checking the product of one positive and one negative number | Number a less than zero &amp; number b greater than zero | Product less than zero | Positive,Negative,MC/DC | No |
+| T\_04\_LL\_04\_HL\_02 | Checking the product of one positive and one negative number | Number a greater than zero &amp; number b less than zero | Product less than zero | Positive,Negative,MC/DC | No |
 
 #### TEST PLAN(ADDITION)
 
-| TEST\_ID | DESCRIPTION | EXPECTED INPUT | EXPECTED OUTPUT | TYPE OF TEST |
-| ------ | ------ | ------ | ------ |------|
-|T_01_LL_01_HL_01 |Checking the addition of two positive numbers. |Numbers X,Y are positive|Output will be positive. |Requirement based test |
-|T_02_ LL_01_HL_01 |Checking the addition of two negative numbers. |Number X,Y are negative| Output will be negative.| Requirement based test |
-|T_03_ LL_01_HL_01 |Checking the addition of two numbers with same magnitude but different signs. | Number X,-Y|Output is 0.| Requirement based test |
-|T_04_ LL_01_HL_01 |Checking the addition of both equal number.| Number X=Y|Output will be 2X or 2Y. | Requirement based test |
-|T_05_ LL_01_HL_01 |Checking the addition of greater negative number and smaller positive number.| Number -X,Y|Output will be negative. | Requirement based test |
-|T_06_ LL_01_HL_01 |Checking if addition exceeds the input capacity.| Number X,Y|Output will be a display message showing overflow condition. | Requirement based test |
+| TEST\_ID | DESCRIPTION | EXPECTED INPUT | EXPECTED OUTPUT | TYPE OF TEST | Sub Test Type | Usability |
+| ------ | ------ | ------ | ------ |------| --- | --- |
+|T_01_LL_01_HL_01 |Checking the addition of two positive numbers. |Numbers X,Y are positive|Output will be positive. |Requirement based test | Positive,Negative,MC/DC | No |
+|T_02_ LL_01_HL_01 |Checking the addition of two negative numbers. |Number X,Y are negative| Output will be negative.| Requirement based test | Positive,Negative,MC/DC | No |
+|T_03_ LL_01_HL_01 |Checking the addition of two numbers with same magnitude but different signs. | Number X,-Y|Output is 0.| Requirement based test | Positive,Negative,MC/DC | No |
+|T_04_ LL_01_HL_01 |Checking the addition of both equal number.| Number X=Y|Output will be 2X or 2Y. | Requirement based test | Positive,Negative,MC/DC | No |
+|T_05_ LL_01_HL_01 |Checking the addition of greater negative number and smaller positive number.| Number -X,Y|Output will be negative. | Requirement based test | Positive,Negative,MC/DC | No |
+|T_06_ LL_01_HL_01 |Checking if addition exceeds the input capacity.| Number X,Y|Output will be a display message showing overflow condition. | Requirement based test | Positive,Negative,MC/DC | No |
 
 
 #### TEST PLAN(PERCENTAGE)  
