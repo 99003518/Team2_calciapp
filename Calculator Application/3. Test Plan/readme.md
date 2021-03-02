@@ -112,6 +112,18 @@ Test plan for Bit Opertions:
 |T_05_ LL_01_HL_01 |Checking the addition of greater negative number and smaller positive number.| Number -X,Y|Output will be negative. | Requirement based test |
 |T_06_ LL_01_HL_01 |Checking if addition exceeds the input capacity.| Number X,Y|Output will be a display message showing overflow condition. | Requirement based test |
 
+
+#### TEST PLAN(PERCENTAGE)  
+   
+
+| TEST\_ID | DESCRIPTION | EXPECTED INPUT | EXPECTED OUTPUT | TYPE OF TEST |
+| --- | --- | --- | --- | --- |
+| T\_01\_LL\_08\_HL\_02 | To check the output when the numbers are positive | Numbers x and y greater than one | Output is greater than one |Requirement based test |
+| T\_02\_LL\_08\_HL\_02 | To check the output when the numbers are negative | Number x is greater than zero and y is less than zero | Error | Requirement based test |
+| T\_03\_LL\_08\_HL\_02 | To check the output when the numbers are zero | Number x is equal to zero and y is equal to zero | Error | Requirement based test |
+| T\_04\_LL\_08\_HL\_02 | To check the output when the numbers are negative | Number x is less than zero and y is less than zero | Error | Requirement based test |
+
+
 ### SCOPE OF TESTING
 The scope of a test defines what areas of a customer's product are supposed to get tested, what functionalities to focus on, what bug types the customer is interested in, and what areas or features should not be tested by any means. If something is in scope, please test it; if something is out of scope, it should not be tested.
 
