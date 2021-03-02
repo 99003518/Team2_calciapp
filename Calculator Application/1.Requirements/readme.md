@@ -49,7 +49,6 @@ SR NO. | PROS | CONS
 1 | It can compute complex mathematical functions and equations. | It cannot solve integral calculus.
 2 | The computations can be done easily and in just few seconds. | It cannot plot graphs.
 
-
 ## PRODUCT DEFINATION
    (SOLID STATE CALCULATOR)
 
@@ -146,7 +145,7 @@ HL_02	|Arithmetic Functions and operations must be included|
 
 ## LOW LEVEL REQUIREMENTS
 
-###### LL_01_TP : ADDITION
+### LL_01_TP : ADDITION
 | ID | DESCRIPTION |
 | ------ | ------ |
 | ( i )| Check for valid input|
@@ -154,7 +153,7 @@ HL_02	|Arithmetic Functions and operations must be included|
 | ( iii )| The calculator has to produce the expected result as defined by the provided arithmetic rules  |
 |  ( iv)| The expected output must be displayed in user readable format |
 
-###### LL_02_TP : SUBTRACTION
+### LL_02_TP : SUBTRACTION
 | ID | DESCRIPTION |
 | ------ | ------ |
 | ( i )| Check for valid input|
@@ -162,7 +161,7 @@ HL_02	|Arithmetic Functions and operations must be included|
 | ( iii )| The calculator has to produce the expected result as defined by the provided arithmetic rules  |
 |  ( iv)| The expected output must be displayed in user readable format |
 
-###### LL_06_TP : FACTORIAL| REQ\_ID | DESCRIPTION |
+### LL_06_TP : FACTORIAL| REQ\_ID | DESCRIPTION |
 | --- | --- |
 | LL\_04\_HL\_02(i) | Check for valid input |
 | LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
@@ -215,8 +214,7 @@ HL_02	|Arithmetic Functions and operations must be included|
  |
  |
 
-#
-Operator|Calculation|Comment|
+### Operator|Calculation|Comment|
 | :-: | :-: | :-: |
 |Percentage operator|(80/100)\*100 = 80%|The numbers considered should be greater than zero. Percentage is also referred as percent and it is used to express the fraction of a number out of 100%. Percentage means per one hundred, for example 80% represents 80 out of 100 or 80 percent of the total.|
 
@@ -241,20 +239,11 @@ The whole or a part of the set of objects are arranged in a manner considering t
 | --- | --- |
 | LL\_04\_HL\_02(i) | Check for valid input |
 | LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
-| LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
-|
-
- |
- |
-
-#
- |
-
-# which guides you to calculate the permutations count in a simple manner. This nPr formula requires n and r values for performing calculations. Permutation formula nPr is one of the most used formulae by high-grade school students.
+| LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command | which guides you to calculate the permutations count in a simple manner. This nPr formula requires n and r values for performing calculations.| Permutation formula nPr is one of the most used formulae by high-grade school students.
 Formula:
 nPr = n!/(n-r)!
 nCr:
-	Different possibilities of selecting r items from a set of n items without repeating the same selection is called as combination. Here is the Combination Formula which guides you to calculate the combination count in a simple manner. This nCr formula requires n and r values for performing calculations.
+Different possibilities of selecting r items from a set of n items without repeating the same selection is called as combination. Here is the Combination Formula which guides you to calculate the combination count in a simple manner. This nCr formula requires n and r values for performing calculations.
 Formula:
 	nCr=n!/((n-r)!*r!)
 
