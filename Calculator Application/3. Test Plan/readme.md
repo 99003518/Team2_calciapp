@@ -118,6 +118,5 @@ Test plan for Bit Opertions:
 |T_03_ LL_01_HL_01 |Checking the addition of two numbers with same magnitude but different signs. | Number X,-Y|Output is 0.| Requirement based test |
 |T_04_ LL_01_HL_01 |Checking the addition of both equal number.| Number X=Y|Output will be 2X or 2Y. | Requirement based test |
 |T_05_ LL_01_HL_01 |Checking the addition of greater negative number and smaller positive number.| Number -X,Y|Output will be negative. | Requirement based test |
-
 |T_06_ LL_01_HL_01 |Checking if addition exceeds the input capacity.| Number X,Y|Output will be a display message showing overflow condition. | Requirement based test |
 
