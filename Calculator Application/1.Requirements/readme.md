@@ -208,10 +208,6 @@ HL_02	|Arithmetic Functions and operations must be included|
 | LL\_04\_HL\_02(i) | Check for valid input |
 | LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
 | LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
-|
-
- |
- |
 
 ### Operator|Calculation|Comment|
 | :-: | :-: | :-: |
@@ -262,8 +258,5 @@ Formula:
 | LL\_05\_HL\_02(ii) | Perform exponential operation |
 | LL\_05\_HL\_02(iii) | This operation has to produce the expected results as per arithmetic rules |
 
-### Procedure to be followed if multiple functions are selected together:
+### Procedure to be followed if multiple functions are selected together
 The operation that is selected at the first would be performed in the first place.
-
- 
-
