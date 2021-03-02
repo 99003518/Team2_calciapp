@@ -7,7 +7,6 @@ In the very beginning the abacus was introduced .It is a sort of hand operated 
 Curt Herzstark invented the first handheld, mechanical calculator in 1945 from a design he had created in 1938.In 1948 the pocket-sized calculator was invented and came in the form of the Curta calculator.The first solid-state electronic calculator was created in the early 1960s. Pocket-sized devices became available in the 1970.In 1990 TI-81 the first graphics calculator developed for math education that added a new visual dimension to mathematics instruction. 
 In the mid-2000s many of the modern smart phones were introduced and with them came a new way of calculation. Modern scientific calculators are used nowadays for all the purpose. Calculators are now in every phone, every tablet, and in every app store from 1$ to 600$.
 
-
 X axis – Year
 Y axis – Cost( percent)
 
@@ -171,7 +170,6 @@ HL_02	|Arithmetic Functions and operations must be included|
  |43.18
  |
 
-#
 | ID | DESCRIPTION |
 | ------ | ------ |
 | ( i )| Check for valid input |
@@ -190,13 +188,13 @@ HL_02	|Arithmetic Functions and operations must be included|
 
 #error message to alert the user .|
 
-**Low Level Requirements for Modulo Division Function**
+### Low Level Requirements for Modulo Division Function
 
 | operator     | Calculation | Comment                                                                                                                                                                                                 |
 |--------------|-------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
 | Mod Division | 9%4 = 1     | Upon the application of the mod division, we get the remainder of the division. It happens in the following way: 4*2 + 1 = 9 That is the number 4 can be placed two times, and we have 1 in the excess. |
 
-**Low Level Requirements for Distance Conversion Function:**
+### Low Level Requirements for Distance Conversion Function
 
 | ID     | Conversion           | Description                                                                                               |
 |--------|----------------------|-----------------------------------------------------------------------------------------------------------|
@@ -204,7 +202,8 @@ HL_02	|Arithmetic Functions and operations must be included|
 | LL_02  | Hectare to Acres     | To convert from hectares to acres, multiply your figure by 2.4710538146717 (or divide by 0.40468564224) . |
 | LL_03  | Inch to Centimeters  | To convert inches to the centimeter values, multiply the given inch value by 2.54 cm.                     |
 
-**Low Level Requirements for percentage:**| REQ\_ID | DESCRIPTION |
+### Low Level Requirements for percentage
+| REQ\_ID | DESCRIPTION |
 | --- | --- |
 | LL\_04\_HL\_02(i) | Check for valid input |
 | LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
@@ -219,7 +218,7 @@ HL_02	|Arithmetic Functions and operations must be included|
 |Percentage operator|(80/100)\*100 = 80%|The numbers considered should be greater than zero. Percentage is also referred as percent and it is used to express the fraction of a number out of 100%. Percentage means per one hundred, for example 80% represents 80 out of 100 or 80 percent of the total.|
 
 
-**Low Level Requirements for nPr and nCr functions in calculator**
+### Low Level Requirements for nPr and nCr functions in calculator
 nPr:
 The whole or a part of the set of objects are arranged in a manner considering the order of management is termed as Permutations. They are generally described as distinct objects taken in a specific time. Here is the Permutation Formula
 | REQ\_ID | DESCRIPTION |
@@ -247,7 +246,7 @@ Different possibilities of selecting r items from a set of n items without repea
 Formula:
 	nCr=n!/((n-r)!*r!)
 
-# Multiplication
+### Multiplication
 
 | REQ\_ID | DESCRIPTION |
 | --- | --- |
@@ -255,7 +254,7 @@ Formula:
 | LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
 | LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
 
-# EXPONENTIAL
+### EXPONENTIAL
 
 | REQ\_ID | DESCRIPTION |
 | --- | --- |
