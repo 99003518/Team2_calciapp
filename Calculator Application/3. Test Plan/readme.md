@@ -107,3 +107,17 @@ Test plan for Bit Opertions:
 | T\_02\_LL\_04\_HL\_02 | Checking the product of two negative numbers. | Numbers a &amp; b less than zero | Product greater than zero |
 | T\_03\_LL\_04\_HL\_02 | Checking the product of one positive and one negative number | Number a less than zero &amp; number b greater than zero | Product less than zero |
 | T\_04\_LL\_04\_HL\_02 | Checking the product of one positive and one negative number | Number a greater than zero &amp; number b less than zero | Product less than zero |
+
+
+#### TEST PLAN(ADDITION)
+
+| TEST\_ID | DESCRIPTION | EXPECTED INPUT | EXPECTED OUTPUT | TYPE OF TEST |
+| ------ | ------ | ------ | ------ |------|
+|T_01_LL_01_HL_01 |Checking the addition of two positive numbers. |Numbers X,Y are positive|Output will be positive. |Requirement based test |
+|T_02_ LL_01_HL_01 |Checking the addition of two negative numbers. |Number X,Y are negative| Output will be negative.| Requirement based test |
+|T_03_ LL_01_HL_01 |Checking the addition of two numbers with same magnitude but different signs. | Number X,-Y|Output is 0.| Requirement based test |
+|T_04_ LL_01_HL_01 |Checking the addition of both equal number.| Number X=Y|Output will be 2X or 2Y. | Requirement based test |
+|T_05_ LL_01_HL_01 |Checking the addition of greater negative number and smaller positive number.| Number -X,Y|Output will be negative. | Requirement based test |
+
+|T_06_ LL_01_HL_01 |Checking if addition exceeds the input capacity.| Number X,Y|Output will be a display message showing overflow condition. | Requirement based test |
+
