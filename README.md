@@ -15,7 +15,7 @@
 |Pranshi Lodha|99003518,stepin105110|Integrator, Product definition and Addition|||
 |Mone Vennela|99003519|High Level Behavioural Diagram,nCr,nPr fuctions- Low level requirements,implementation,low level design and low level test plan|||
 |Sahil K|99003520|High level test plan, percentage, low level design for percentage, low level requirement for percentage ||
-|Malavika Rajesh|99003522,stepin105158|Research-Features,Exponential function- low level requirements,Implementation,low level design and low level Testplan|
+|Malavika Rajesh|99003522,stepin105158|Research-Features,Exponential function- low level requirements,Implementation,low level design and low level Testplan|10 | 10 |
 |Spoorthy C P|99003523,stepin105186|Cost and Age Reasearch,Subtraction,main file, Low level Test Plan,Design,Requirements||
 |DhumaM S|99003524|High level design-Structural diagram , Multiplication function-low level requirements,Implementation,low level design and low level Testplan||
 |Sneha Anand|99003525 , stepin104339|Organiser, High level requirements, low level requirements and test plan for factorial |||
