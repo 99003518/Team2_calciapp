@@ -15,8 +15,11 @@
 | TP\_HL\_12 | Inch to cm | 1 | 2.54 | Requirement based test|
 | TP\_HL\_13 | Km to m | 2 | 2000 | Requirement based test|
 | TP\_HL\_14 | Bit operation | 1&0 | 0 | Requirement based test|
-# LOW LEVEL TEST PLAN
-#### TEST PLAN (FACTORIAL)
+
+## LOW LEVEL TEST PLAN
+
+### TEST PLAN (FACTORIAL)
+
 | ID |Description | Expected input or state | Expected output or State |Type of test|
 | ------ | ------ | ------ | ------ |------|
 |T_01_LL_06_HL_02 |Check output when the input is less than 0 |N= -3 |Error message | Requirement based test|
@@ -26,6 +29,7 @@
 |T_03_ LL_06_HL_02 |Check output when  the input is greater than 11 |N=23 |Error message |Boundary based test|
 
 #### Test Plan (nPr and nCr)
+
 Test Plan for nPr and nCr operations As per formula we know the calculations for both nPr and nCr operations include factorial operation Here we listed some factorials, nPr and nCr calculations
 |Expected Input|Expected Output|Type of test|
 |-----|-----|-----|
@@ -36,9 +40,7 @@ Test Plan for nPr and nCr operations As per formula we know the calculations for
  |4C0|1|Requirement based test|
  |6P6|720|Requirement based test|
  |6C6|1|Requirement based test|
-  
-  
-  
+   
 #### TEST PLAN(EXPONENTIAL)  
   LL_05 TEST PLAN 
 
@@ -47,7 +49,6 @@ Test Plan for nPr and nCr operations As per formula we know the calculations for
 | T\_01\_LL\_05\_HL\_02 | To check the output when the exponent is positive | Numbers x and y greater than one | Output is greater than one |Requirement based test |
 | T\_02\_LL\_05\_HL\_02 | To check the output when the exponent is negative | Number x is greater than zero and y is less than zero | Output is less than one | Requirement based test |
 | T\_03\_LL\_05\_HL\_02 | To check the output when the exponent is zero | Number x is greater than zero and y is equal to zero | Output is equal to one | Requirement based test |
-
 
 **Test Plan for Modulo Division & Distance Conversion:**
 
@@ -65,9 +66,6 @@ Test Plan for nPr and nCr operations As per formula we know the calculations for
 | Conversion from Hectares to Acres      | User Input   | 17      | 42.0079       |
 | Conversion from inch to Centimeters    | User Input   | 17      | 43.18         |
 
-
-
-
 #### TEST PLAN(SUBTRACTION)
 
 | TEST\_ID | DESCRIPTION | EXPECTED INPUT | EXPECTED OUTPUT | TYPE OF TEST |
@@ -76,10 +74,6 @@ Test Plan for nPr and nCr operations As per formula we know the calculations for
 |T_02_ LL_02_HL_02 |Checking the subtraction of first number which is greater than second number. |Number x>y| Output is positive| Requirement based test |
 |T_03_ LL_02_HL_02 |Checking the subtraction of second number which is greater than first number. | Number x<y|Output is negative| Requirement based test |
 |T_04_ LL_02_HL_02 |Checking the subtraction of both equal number.| Number x=y|Output will be zero| Requirement based test |
-
-
-
-
 
 #### Test plan for Division
 | Description            | Precondition | Expected i/p | Excepted o/p (Quotient,Remainder)  |
@@ -98,7 +92,6 @@ Test plan for Bit Opertions:
 | operation for unsigned int  (<<)| user input   | 60,13        | 240          |
 | operation for unsigned int  (>>)| user input   | 60,13        | 15           |
 
-
 ### Test Plan for Multiplication
 
 | **Test Id** | **Description** | **Expected input** | **Expected Output** |
@@ -107,7 +100,6 @@ Test plan for Bit Opertions:
 | T\_02\_LL\_04\_HL\_02 | Checking the product of two negative numbers. | Numbers a &amp; b less than zero | Product greater than zero |
 | T\_03\_LL\_04\_HL\_02 | Checking the product of one positive and one negative number | Number a less than zero &amp; number b greater than zero | Product less than zero |
 | T\_04\_LL\_04\_HL\_02 | Checking the product of one positive and one negative number | Number a greater than zero &amp; number b less than zero | Product less than zero |
-
 
 #### TEST PLAN(ADDITION)
 
@@ -120,13 +112,8 @@ Test plan for Bit Opertions:
 |T_05_ LL_01_HL_01 |Checking the addition of greater negative number and smaller positive number.| Number -X,Y|Output will be negative. | Requirement based test |
 |T_06_ LL_01_HL_01 |Checking if addition exceeds the input capacity.| Number X,Y|Output will be a display message showing overflow condition. | Requirement based test |
 
-
 ### SCOPE OF TESTING
 The scope of a test defines what areas of a customer's product are supposed to get tested, what functionalities to focus on, what bug types the customer is interested in, and what areas or features should not be tested by any means. If something is in scope, please test it; if something is out of scope, it should not be tested. 
 1. Memory Management cannot be introduced in this device.
 2. Multiple inputs are not supposed to be given.
 3. Complex numbers are not supported.
-
-
-
-
