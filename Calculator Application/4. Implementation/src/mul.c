@@ -33,7 +33,7 @@ int multiplication(int a,int b) {
         mul = a*b;
         return mul;
         //printf("The product is = %d", mul);
-    }
+    //}
     
     
     
