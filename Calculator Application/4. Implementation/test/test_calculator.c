@@ -27,19 +27,10 @@ void test_sub(void);
 void test_multiplication(void);
 void test_division(void);
 void test_exponential(void);
-//void test_square(void);
-//void test_prime(void);
-//void test_smaller(void);
-//void test_greater(void);
+
 void test_factorial(void);
 void test_modulo(void);
-//void test_squareroot(void);
-//void test_sinvalue(void);
-//void test_cosvalue(void);
-//void test_tanvalue(void);
-//void test_centitometer(void);
-//void test_metertocenti(void);
-//void test_metertokm(void);
+
 void test_kmtometer(void);
 //void test_centitoinch(void);
 void test_inchtocentimeter(void);
@@ -115,18 +106,7 @@ int main() {
 
 
 
-/* Note: Do not edit START*/
-  /* Setup Test Framework to output the result to Screen */
- // CU_basic_set_mode(CU_BRM_VERBOSE);
-  
-  /* run the unit test framework*/
-  //CU_basic_run_tests();
-  
-  /* Cleaning the Resources used by Unit test framework */
-//  CU_cleanup_registry();
-/* Note: Do not edit END */
- // return 0;
-//}
+
 
 /* Write all the test functions */ 
 void test_add(void) {
@@ -176,34 +156,8 @@ void test_exponential(void){
   CU_ASSERT(10 == exponential(10, 0));
 }
 
-/*void test_square(void) {
-  CU_ASSERT(100 == square(10));
-  
-  /* Dummy fail
-  CU_ASSERT(1500 == square(25));
-}*/
 
-/*void test_prime(void) {
-  CU_ASSERT(1 == prime(89));
-  CU_ASSERT(-1 == prime(-12))
-  
-  /* Dummy fail
-  CU_ASSERT(0 == prime(97));
-}
 
-void test_smaller(void) {
-  CU_ASSERT(10 == smaller(10,20));
-  
-  /* Dummy fail
-  CU_ASSERT(25 == smaller(25,5));
-}
-
-void test_greater(void) {
-  CU_ASSERT(20 == greater(10,20));
-  
-  
-  /*CU_ASSERT(5 == greater(25,5));
-}*/
 
 void test_factorial(void) {
   CU_ASSERT(1 == factorial(0));
@@ -223,69 +177,8 @@ void test_modulo(void) {
   CU_ASSERT(5 == modulo(25,5));
 }
 
-/*void test_squareroot(void) {
-  CU_ASSERT(3 == squareroot(9));
-  
-  /* Dummy fail
-  CU_ASSERT(1 == squareroot(100));
-}
-
-void test_sinvalue(void) {
-  CU_ASSERT(0 == sinvalue(0));
-  
-  /* Dummy fail
-  CU_ASSERT(1 == sinvalue(12));
-}
-
-void test_cosvalue(void) {
-  CU_ASSERT(1 == cosvalue(0));
-  
-  /* Dummy fail
-  CU_ASSERT(1 == cosvalue(12));
-}
-
-void test_tanvalue(void) {
-  CU_ASSERT(1 == tanvalue(45));
-  
-  /* Dummy fail
-  CU_ASSERT(1 == tanvalue(12));
-}
-
-void test_metertocenti(void) {
-  CU_ASSERT(1200 == metertocenti(12));
-  
-  /* Dummy fail
-  CU_ASSERT(1 == metertocenti(12));
-}
 
 
-void test_centitometer(void) {
-  CU_ASSERT(12 == centitometer(1200));
-  
-  /* Dummy fail
-  CU_ASSERT(1 == centitometer(12));
-}*/
-
-void test_kmtometer(void) {
-  CU_ASSERT(1000 == kmtometer(1));
-  
-  /* Dummy fail*/
-  CU_ASSERT(1 == kmtometer(12));
-}
-
-/*void test_metertokm(void) {
-  CU_ASSERT(1 == metertokm(1000));
-  
-  /* Dummy fail
-  CU_ASSERT(1 == metertokm(12));
-}
-
-void test_centitoinch(void) {
-  CU_ASSERT(100 == centitoinch(254));
-  
-  /* Dummy fail
-  CU_ASSERT(1 == centitoinch(12));
-}*/
 
 void test_inchtocentimeter(void) {
   CU_ASSERT(254 == inchtocentimeter(100));
