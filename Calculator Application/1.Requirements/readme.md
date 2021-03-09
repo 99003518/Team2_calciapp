@@ -192,10 +192,6 @@ HL_02	|Arithmetic Functions and operations must be included|
 | LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
 | LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
 
-### Operator|Calculation|Comment|
-| :-: | :-: | :-: |
-|Percentage operator|(80/100)\*100 = 80%|The numbers considered should be greater than zero. Percentage is also referred as percent and it is used to express the fraction of a number out of 100%. Percentage means per one hundred, for example 80% represents 80 out of 100 or 80 percent of the total.|
-
 ### Low Level Requirements for nPr and nCr functions in calculator
 nPr:
 The whole or a part of the set of objects are arranged in a manner considering the order of management is termed as Permutations. They are generally described as distinct objects taken in a specific time. Here is the Permutation Formula
