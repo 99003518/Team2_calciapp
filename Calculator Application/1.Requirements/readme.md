@@ -160,15 +160,6 @@ HL_02	|Arithmetic Functions and operations must be included|
 | ( iii )| The calculator has to produce the expected result as defined by the provided arithmetic rules  |
 |  ( iv)| The expected output must be displayed in user readable format |
 
-### LL_06_TP : FACTORIAL
-| REQ\_ID | DESCRIPTION |
-| --- | --- |
-| LL\_06\_HL\_02(i) | Check for valid input |
-| LL\_06\_HL\_02(ii) | Check whether the numbers are positive or negative |
-| LL\_06\_HL\_02(iii) | For the conditions being true the program excecutes the command |
-| LL\_06\_HL\_02(iv) | For the conditions being false the program throws an error |
-| LL\_06\_HL\_02(v) | For the out of range inputs  the program prints an error message |
-
 
 
 ### Low Level Requirements for Modulo Division Function
@@ -206,19 +197,9 @@ The whole or a part of the set of objects are arranged in a manner considering t
 | LL\_04\_HL\_02(i) | Check for valid input |
 | LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
 | LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
-|
 
- || REQ\_ID | DESCRIPTION |
-| --- | --- |
-| LL\_04\_HL\_02(i) | Check for valid input |
-| LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
-| LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command | which guides you to calculate the permutations count in a simple manner. This nPr formula requires n and r values for performing calculations.| Permutation formula nPr is one of the most used formulae by high-grade school students.
-Formula:
-nPr = n!/(n-r)!
-nCr:
-Different possibilities of selecting r items from a set of n items without repeating the same selection is called as combination. Here is the Combination Formula which guides you to calculate the combination count in a simple manner. This nCr formula requires n and r values for performing calculations.
-Formula:
-	nCr=n!/((n-r)!*r!)
+
+
 
 ### Multiplication
 
@@ -235,6 +216,17 @@ Formula:
 | LL\_05\_HL\_02(i) | Check for valid input |
 | LL\_05\_HL\_02(ii) | Perform exponential operation |
 | LL\_05\_HL\_02(iii) | This operation has to produce the expected results as per arithmetic rules |
+
+
+### LL_06_TP : FACTORIAL
+| REQ\_ID | DESCRIPTION |
+| --- | --- |
+| LL\_06\_HL\_02(i) | Check for valid input |
+| LL\_06\_HL\_02(ii) | Check whether the numbers are positive or negative |
+| LL\_06\_HL\_02(iii) | For the conditions being true the program excecutes the command |
+| LL\_06\_HL\_02(iv) | For the conditions being false the program throws an error |
+| LL\_06\_HL\_02(v) | For the out of range inputs  the program prints an error message |
+
 
 ### Procedure to be followed if multiple functions are selected together
 The operation that is selected at the first would be performed in the first place.
