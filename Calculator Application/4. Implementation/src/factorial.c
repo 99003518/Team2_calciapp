@@ -12,7 +12,8 @@ int factorial(int num)
         printf("Error! Factorial of a negative number doesn't exist.");
     else if (n>11)
     {
-        printf("enter number from 0 to 11only ");
+        printf("Error ! Overflow of values ...");
+        printf("please enter number from 0 to 11 only ");
     }
     else {
         for (i = 1; i <= n; ++i) {
