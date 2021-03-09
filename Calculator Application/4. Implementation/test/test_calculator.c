@@ -69,40 +69,6 @@ int main() {
   return 0;
 }
 
-/* Start of the application test */
-//int main() {
-/* Note: Do not edit START*/
-  /*Initialize and setup the Test Framework */
-  
-/*  if (CUE_SUCCESS != CU_initialize_registry())
-    return CU_get_error();
-  CU_pSuite suite = CU_add_suite(PROJECT_NAME, 0, 0);
-/* Note: Do not edit END 
-  CU_add_test(suite, "add", test_add);
-  CU_add_test(suite, "sub", test_sub);
-  CU_add_test(suite, "multiplication", test_multiplication);
-  CU_add_test(suite, "division", test_division);
-  CU_add_test(suite, "exponential", test_exponential);
-  //CU_add_test(suite, "square", test_square);
-  //CU_add_test(suite, "prime", test_prime);
- // CU_add_test(suite, "smaller", test_smaller);
-  //CU_add_test(suite, "greater", test_greater);
-  CU_add_test(suite, "factorial", test_factorial);
-  CU_add_test(suite, "modulo", test_modulo);
-  //CU_add_test(suite, "squareroot", test_squareroot);
-  //CU_add_test(suite, "sinvalue", test_sinvalue);
-  //CU_add_test(suite, "cosvalue", test_cosvalue);
-  //CU_add_test(suite, "tanvalue", test_tanvalue);
-  //CU_add_test(suite, "centitometer", test_centitometer);
-  //CU_add_test(suite, "metertocenti", test_metertocenti);
-  //CU_add_test(suite, "metertokm", test_metertokm);
-  CU_add_test(suite, "kmtometer", test_kmtometer);
-  CU_add_test(suite, "inchtocentimeter", test_inchtocentimeter);
-  //CU_add_test(suite, "centitoinch", test_centitoinch);
-  CU_add_test(suite, "ncr",test_ncr);
-  CU_add_test(suite, "npr",test_npr);
-  CU_add_test(suite, "percentage",test_percentage);
-
 
 
 
