@@ -11,7 +11,7 @@ int multiplication(int a,int b) {
     printf(" the second number : %d",b);
     //scanf("%d",&b);
 
-    if(a>0 && b>0) {
+    /*if(a>0 && b>0) {
         mul = a*b;
         return mul;
         //printf("The product is = %d", mul);
@@ -29,7 +29,7 @@ int multiplication(int a,int b) {
         //printf("The product is = %d", mul);
     }
     
-    else  {
+    else  {*/
         mul = a*b;
         return mul;
         //printf("The product is = %d", mul);
