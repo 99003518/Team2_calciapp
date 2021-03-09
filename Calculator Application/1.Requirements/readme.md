@@ -160,33 +160,16 @@ HL_02	|Arithmetic Functions and operations must be included|
 | ( iii )| The calculator has to produce the expected result as defined by the provided arithmetic rules  |
 |  ( iv)| The expected output must be displayed in user readable format |
 
-### LL_06_TP : FACTORIAL| REQ\_ID | DESCRIPTION |
+### LL_06_TP : FACTORIAL
+| REQ\_ID | DESCRIPTION |
 | --- | --- |
-| LL\_04\_HL\_02(i) | Check for valid input |
-| LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
-| LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
-|
+| LL\_06\_HL\_02(i) | Check for valid input |
+| LL\_06\_HL\_02(ii) | Check whether the numbers are positive or negative |
+| LL\_06\_HL\_02(iii) | For the conditions being true the program excecutes the command |
+| LL\_06\_HL\_02(iv) | For the conditions being false the program throws an error |
+| LL\_06\_HL\_02(v) | For the out of range inputs  the program prints an error message |
 
- |43.18
- |
 
-| ID | DESCRIPTION |
-| ------ | ------ |
-| ( i )| Check for valid input |
-| ( ii )| Perform factorial operation |
-| ( iii )| The calculator has to produce the expected result as defined by the provided arithmetic rules  |
-|  ( iv)| The expected output must be displayed in user readable format |
-|  ( v ) | In case of erroneous situation , the calculator has to display | REQ\_ID | DESCRIPTION |
-| --- | --- |
-| LL\_04\_HL\_02(i) | Check for valid input |
-| LL\_04\_HL\_02(ii) | Check whether the numbers are positive or negative |
-| LL\_04\_HL\_02(iii) | For the conditions being true the program excecutes the command |
-|
-
- |
- |
-
-#error message to alert the user .|
 
 ### Low Level Requirements for Modulo Division Function
 
