@@ -12,8 +12,7 @@
 #include<modulo.h>
 #include<ncr.h>
 #include<npr.h>
-#include<percentage.h>
- 
+#include<percentage.h> 
  int main()
  {
     int n,operation,a,b,e,num1,num2,r,n1,n2,num,operand1,operand2;
@@ -30,10 +29,7 @@
                     break;
             case 2: sub(a,b);
                     break;
-
             case 3: division(n1,n2);
-
-
                     break;
             case 4: multiplication(a,b);
                     break;
@@ -55,19 +51,13 @@
                      break;
             case 13: kmtometer(num);
                      break;
-
             case 14: bitoperations(a,b);
-
                      break;
-
         }
     }
   else
   {
    printf("Enter a Valid option!!!!!");
-   
-  }
-    
-  
+  } 
     return 0;
  }
