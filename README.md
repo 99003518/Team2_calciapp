@@ -5,7 +5,7 @@
 ![Unit testing](https://github.com/99003518/Team2_calciapp/workflows/Unit%20testing/badge.svg)
 ![Valgrind](https://github.com/99003518/Team2_calciapp/actions/workflows/Valgrind.yml/badge.svg)
 ![Code Inspector](https://www.code-inspector.com/project/20496/score/svg)
-
+![Code Grade](https://www.code-inspector.com/project/20496/status/svg)
 ## TEAM 2
 
 ### TEAM SUMMARY
